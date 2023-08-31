@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div {
+   
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+
+.footer{
+    width: 1440px;
+    height: 556px;
+    flex-shrink: 0;
+}
