@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .div {
     background-image: url(img/Rectangle\ 1.jpg);
     background-repeat: no-repeat;
@@ -25,27 +30,70 @@ a {
     font-size: 64px;
     padding-top: 217px;
     padding-bottom: 32px;
+    max-width: 788px;
+    
 }
 
 .top__text{
     color: #FFF; 
     font-size: 18px;
     padding-bottom: 57px;
+    max-width: 481px;
+    
 }
 
 .button{
     font-size: 18px;
     border-radius: 30px;
-background: #9C0332;
-border: #9C0332;
-height: 48px;
-width: 234px;
+    background: #9C0332;
+    border: #9C0332;
+    height: 48px;
+    width: 234px;
+
 }
 
-.footer{
+.box{
     background-image: url(img/Rectangle\ 5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 556px;
     flex-shrink: 0;
 }
+
+.menu{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu__div{
+    width: 379px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu__link{
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.menu__div_1{
+background-image: url(img/Rectangle\ 6.jpg);
+
+}
+
+.menu__div_2{
+background-image: url(img/Rectangle\ 7.jpg);
+
+}
+
+
+.menu__div_3{
+background-image: url(img/Rectangle\ 8.jpg);
+}
+
