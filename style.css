@@ -9,13 +9,14 @@ a {
 }
 
 .div {
-   
+    background-image: url(img/Rectangle\ 1.jpg);
     width: 1440px;
     height: 1024px;
     flex-shrink: 0;
 }
 
 .footer{
+    background-image: url(img/Rectangle\ 5.jpg);
     width: 1440px;
     height: 556px;
     flex-shrink: 0;
