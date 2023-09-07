@@ -1,3 +1,5 @@
-let a = String ("Брендан Эйк");
+let a = Number (10);
+let d = Number (2);
+let result = a + d;
 
-alert(a);
+alert(result);
