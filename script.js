@@ -1,6 +1,6 @@
 const user = {
     name: 'Сергей',
-    age: '35',
+    gender: 'мужской',
     isAdmin: 'ДА',
     city, of, residence: 'Владивосток' 
 }
