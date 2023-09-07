@@ -1,5 +1,5 @@
-let a = Number (10);
+let a = Number (9);
 let d = Number (2);
-let result = (d ** d) + (d ** d) + (d ** d) + (d ** d) + (d ** d) ;
+let result = a % d ;
 
 alert(result);
