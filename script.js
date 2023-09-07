@@ -1,3 +1,3 @@
-let a = Number (2007);
+let a = String ("Брендан Эйк");
 
 alert(a);
