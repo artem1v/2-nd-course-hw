@@ -1,3 +1,3 @@
-let a = Number (10);
+let a = Number (20);
 
 alert(a);
