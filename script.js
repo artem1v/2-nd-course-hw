@@ -1,6 +1,7 @@
 const user = {
-    name:'Паша'
-    age:'24'
-    isAdmin:'true'
-}
-user.citeOfResidence = 'Vladivostok'
+    name:'Паша',
+    age:'23',
+    isAdmin:'true',
+};
+user.citeOfResidence = 'Vladivostok';
+delete user.citeOfResidence;
