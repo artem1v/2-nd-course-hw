@@ -1,2 +1,2 @@
-const yearOfCreation = 1999;
-alert(yearOfCreation);
+const name = 'Брендан Ейк';
+alert(name);
