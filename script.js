@@ -3,3 +3,4 @@ const user = {
     age:'24'
     isAdmin:'true'
 }
+user.citeOfResidence = 'Vladivostok'
