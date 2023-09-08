@@ -8,5 +8,5 @@ delete user.citeOfResidence;
 
 let info = prompt("Имя пользователя?");
 
-let a = "Привет ИМЯ!";
+let a = `Привет ${info}!`;
 alert(a);
