@@ -6,5 +6,7 @@ const user = {
 user.citeOfResidence = 'Vladivostok';
 delete user.citeOfResidence;
 
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(user[info])
+let info = prompt("Имя пользователя?");
+
+let a = "Привет ИМЯ!";
+alert(a);
