@@ -1,7 +1,3 @@
-const a = 10;
-const d = 2;
-alert(a + d);
-alert(a - d);
-alert(a * d);
-alert(a / d);
-alert(a % d);
+
+let a = Math.pow(2, 5);
+alert(a);
