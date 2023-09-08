@@ -5,3 +5,6 @@ const user = {
 };
 user.citeOfResidence = 'Vladivostok';
 delete user.citeOfResidence;
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info])
