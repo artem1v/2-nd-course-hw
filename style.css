@@ -1,99 +1,138 @@
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.center{
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .div {
-    background-image: url(img/Rectangle\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1024px;
-    flex-shrink: 0;
+  background-image: url(img/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1024px;
+  flex-shrink: 0;
 }
 
-.title{
-    color: #FFF;
-    font-size: 64px;
-    padding-top: 217px;
-    padding-bottom: 32px;
-    max-width: 788px;
-    
+.title {
+  color: #FFF;
+  font-size: 64px;
+  padding-top: 217px;
+  padding-bottom: 32px;
+  max-width: 788px;
 }
 
-.top__text{
-    color: #FFF; 
-    font-size: 18px;
-    padding-bottom: 57px;
-    max-width: 481px;
-    
+.top__text {
+  color: #FFF;
+  font-size: 18px;
+  padding-bottom: 57px;
+  max-width: 481px;
 }
 
-.button{
-    font-size: 18px;
-    border-radius: 30px;
-    background: #9C0332;
-    border: #9C0332;
-    height: 48px;
-    width: 234px;
-
+.button {
+  font-size: 18px;
+  border-radius: 30px;
+  background: #9C0332;
+  border: #9C0332;
+  height: 48px;
+  width: 234px;
 }
 
-.box{
-    background-image: url(img/Rectangle\ 5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 556px;
-    flex-shrink: 0;
+.button {
+  transition: all 1s;
 }
 
-.menu{
-    
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+.button:hover {
+  border-radius: 30px;
+  background: #EB443F;
 }
 
-.menu__div{
-    width: 379px;
-    height: 300px;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
+.box {
+  background-image: url(img/Rectangle\ 5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 556px;
+  flex-shrink: 0;
 }
 
-.menu__link{
-    color: #FFF;
-    font-size: 24px;
-    padding-left: 32px;
-    padding-bottom: 32px;
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.menu__div_1{
-background-image: url(img/Rectangle\ 6.jpg);
-
+.menu__div {
+  width: 379px;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 16px;
 }
 
-.menu__div_2{
-background-image: url(img/Rectangle\ 7.jpg);
-
+.menu__link {
+  color: #FFF;
+  font-size: 24px;
+  padding-left: 32px;
+  padding-bottom: 32px;
 }
 
-
-.menu__div_3{
-background-image: url(img/Rectangle\ 8.jpg);
+.menu__div_1 {
+  background-image: url(img/Rectangle\ 6.jpg);
 }
 
+.menu__div_2 {
+  background-image: url(img/Rectangle\ 7.jpg);
+}
+
+.menu__div_3 {
+  background-image: url(img/Rectangle\ 8.jpg);
+}
+
+.menu__div {
+  transition: all 0.3s;
+}
+
+.menu__div:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.div {
+  background-image: url(img/modile1.jpg);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 238px;
+  font-size: 32px;
+}
+
+.top__text {
+  font-size: 14px;
+}
+
+.menu__div {
+  width: 343px;
+}/*# sourceMappingURL=style.css.map */
