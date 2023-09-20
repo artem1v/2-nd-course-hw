@@ -131,4 +131,10 @@ a {
   .menu__div {
     width: 343px;
   }
+  .menu__div_3 {
+    margin-bottom: 128px;
+  }
+  .box {
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */

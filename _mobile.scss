@@ -1,31 +1,38 @@
 @media (max-width: 767px) {
-    .center {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-    .div{
-      background-image: url(img/modile1.jpg);
-    }
-    
-    .header{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-    .title {
-      padding-top: 238px;
-      font-size: 32px;
-    }
-    
-    .top__text{
-      font-size: 14px;
-    
-    }
-    
-    .menu__div{
-      width: 343px;
-    }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  
-  
+
+  .div {
+    background-image: url(img/modile1.jpg);
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title {
+    padding-top: 238px;
+    font-size: 32px;
+  }
+
+  .top__text {
+    font-size: 14px;
+
+  }
+
+  .menu__div {
+    width: 343px;
+  }
+
+  .menu__div_3 {
+    margin-bottom: 128px;
+  }
+
+  .box {
+    height: auto;
+  }
+}
