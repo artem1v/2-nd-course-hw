@@ -62,19 +62,11 @@ for (let name in employee) {
 let n = 1000;
 let num = 0;
 
-
 do {
-    console.log(n);
-    n /= 2;
+  n /= 2;
+  num++;
 } while (n > 50);
-
-
-for (let n = 1000, num = 0; n > 50; num++) {
-
-    n /= 2;
-    console.log(num);
-    }
-
+console.log(n)
 
 /*
 Задание 6
@@ -91,9 +83,7 @@ for (let n = 1000, num = 0; n > 50; num++) {
 
 
 
-for (let day = 5, week = 0; day <= 31; day++) {
-      console.log(day);
-      if (day += 7)
-      console.log('Сегодня пятница, Необходимо подготовить отчет.')
-    }   
+for (let day = 5; day <= 31; day += 7) {
+      console.log(`Сегодня пятница,${[day]} Необходимо подготовить отчет.`);
+     }   
     
