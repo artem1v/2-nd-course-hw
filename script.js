@@ -4,13 +4,6 @@
 */
 
 /*
-do {
-    console.log('Привет!');
-    console.log('Привет!');
-} while (false);
-*/
-
-/*
 while (true) {
     console.log('Привет!');
     console.log('Привет!');
@@ -67,13 +60,20 @@ for (let name in employee) {
 */
 /*
 let n = 1000;
-
+let num = 0;
+*/
+/*
 do {
     console.log(n);
     n /= 2;
 } while (n > 50);
+*/
+/*
+for (let n = 1000, num = 0; n > 50; num++) {
 
-let num = 6;
+    n /= 2;
+    console.log(num);
+    }
 */
 
 /*
@@ -89,17 +89,6 @@ let num = 6;
 В нашем месяце 31 день. В результате у вас должно вывестись от 4 до 5 сообщений с напоминаниями по разным датам.
 */
 /*
-const week = {
-    mon: "Понедельник",
-    tue: "Вторник",
-    wed: "Среда",
-    thu: "Четверг",
-    fri: "Пятница",
-    sat: "Суббота",
-    sun: "Воскресенье",
-}
-*/
-
 let day = 5;
 
 const week = {
@@ -110,19 +99,19 @@ const week = {
     5: "Пятница",
     6: "Суббота",
     7: "Воскресенье",
-}
+} */
 
 /*
-for (let  week = 1; week < 31; week++) {
-    console.log(`${week},  ${week[week]}`);
+for (let  week = 5; week <= 31; week++) {
+    console.log(`${week},  ${week[day]}`);
     
-}
+} */
 
 /*
 for (let name in week) {
     console.log(`${name},  ${week[name]}`);
-}
-*/
+}   */
+
 
 /*
 for ( nav in week){
@@ -133,5 +122,13 @@ for ( nav in week){
         console.log(`${nav}: ${week[nav]}`);
     }
    
-}
-  */ 
+}*/
+ 
+
+let week = 'Сегодня пятница, ...-е число. Необходимо подготовить отчет.'
+
+for (let day = 5, week = 0; day <= 31; day++) {
+      console.log(day);
+      if (day += 7)
+      console.log('Сегодня пятница, Необходимо подготовить отчет.')
+    }   
