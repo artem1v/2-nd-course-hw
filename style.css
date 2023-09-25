@@ -108,6 +108,11 @@ a {
   border: 3px solid #44D2FF;
 }
 
+.igroaBox {
+  height: 800px;
+  width: 1440px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
