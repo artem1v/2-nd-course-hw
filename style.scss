@@ -62,7 +62,6 @@ a {
     background-image: url(img/Rectangle\ 5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 556px;
     flex-shrink: 0;
 }
 
@@ -70,6 +69,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 28px;
+    padding-bottom: 128px;
+    
 }
 
 .menu__div {
@@ -109,9 +110,37 @@ a {
     border: 3px solid #44D2FF;
 }
 
-.igroaBox{
-   height: 800px;
-   width: 1440px;
+.Seasons{
+   background-image: url(img/Rectangle\ 5.jpg);
+}
+
+.game__seasons{
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top: 282px
+}
+
+.title__seasons{
+    color: #FFF;
+    font-size: 48px;
+}
+
+.top__text_seasons{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    width: 584px;
+}
+
+.gamepad{
+    width: 485px;
+    height: 333px;
+   
+    
 }
 
 @import 'mobile';

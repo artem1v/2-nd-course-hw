@@ -2,22 +2,24 @@
 Задание 1
 Напишите функцию, которая возвращает меньшее из 2 чисел. Например, из двух чисел — 8 и 4 — функция должна вернуть 4. Если передадим 6 и 6, то функция должна вернуть 6.
 */
+
 /*
 function tsyfra(a, d) {
-    a = prompt('введите первое число');
-    d = prompt('введите второе число');
+  //  a = prompt('введите первое число');
+  //  d = prompt('введите второе число');
 
 if (a <= d) {
-    alert(a);
+    return(a);
 } else {
-    alert(d);
+    return(d);
+    
 }
 
-}
+};
     
+alert(tsyfra(6, 5));
 let resultTsyfra = tsyfra();
 */
-
 
 /*
 Задание 2
@@ -52,14 +54,16 @@ function square(b) {
 }
 
 let resultSquare = square();
-
+*/
+/*
 function squareConsole(c) {
-    c = prompt('введите число');
-    return console.log(c ** 2);
+    return c ** 2;
     
 }
 
+
 let resultSquareConsole = squareConsole();
+console.log(squareConsole(7));
 */
 /*
 Задание 4
@@ -80,9 +84,8 @@ function age(e) {
     alert('Вы ввели неправильное значение');
 } else if (e <= 12) {
     alert('Привет, друг!');
-} else if (e => 13) {
+} else {
     alert('Добро пожаловать!');
-} else { 
 }
 }
      
@@ -105,13 +108,11 @@ function number(f, g) {
 
     if (isNaN(f, g)) {
         return alert('Одно или оба значения не являются числом')
-    } else if (f * g) {
-       return alert(`${f * g}`);
+    } else if (isNaN(g, f)) {
+        return alert('Одно или оба значения не являются числом')
     } else {
-        
-    }
-       
-    
+       return alert(`${f * g}`);
+    }  
 }
 
 let resultNumber = number();
@@ -132,21 +133,22 @@ function cubeNumber() {
 
     if (isNaN(n)) {
         return alert('Переданный параметр не является числом')
-    } else cube = Math.pow(n, 3); {
-        return alert(`${n} в кубе равняется ${cube}`);
-    } 
-     
+    } else {
+    const cube = Math.pow(n, 3); 
+    return `${n} в кубе равняется ${cube}`;
+    }
+
     
 }
 
-for (let i = 0; i <= 10; i++) {
-    console.log(cubeNumber(i));
+for (let n = 0; n <= 10; n++) {
+    console.log(cubeNumber(n));
     
-}   
-
+} 
+alert(cubeNumber());
 let resultCubeNumber = cubeNumber();
-*/
 
+*/
  /*
 Задание 7
 Создайте объекты circle1 и circle2 со свойством 
@@ -157,23 +159,35 @@ getArea
 getPerimeter
  , который возвращает периметр окружности.
 */
-
-function circle() {
-    
-}
-
+/*
+function getRectangleArea() {
+    return this.radius * this.area;
+  }
+  function getRectanglePerimeter() {
+    return this.radius * 2 + this.area * 2;
+  }
 
 const circle1 = {
-    radius: '5',
-    area: '10',
-
+    radius: 5,
+    area: 10,
+    
+    getArea: getRectangleArea,
+    getPerimeter:  getRectanglePerimeter,
 }
 
 const circle2 = {
-    radius: '',
-    area: '',
+    radius: 8,
+    area: 12,
+    
+    getArea: getRectangleArea,
+    getPerimeter: getRectanglePerimeter,
 }
 
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
+*/
  /*
 Задание 8. Работа с макетом
 Сверстайте второй блок сайта с играми. Ссылка на макет.
