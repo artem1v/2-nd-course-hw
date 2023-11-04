@@ -110,6 +110,9 @@ a {
 
 .Seasons {
   background-image: url(img/Rectangle\ 5.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
 }
 
 .game__seasons {
@@ -137,6 +140,339 @@ a {
 .gamepad {
   width: 485px;
   height: 333px;
+  padding-top: 234px;
+  padding-bottom: 234px;
+}
+
+.item {
+  position: absolute;
+}
+
+.gamepad__boy {
+  padding-left: 51px;
+  padding-top: 34px;
+}
+
+.boy {
+  position: relative;
+  padding-left: 261px;
+  padding-top: 66px;
+}
+.boy__hair {
+  padding-left: 100px;
+  z-index: 1;
+}
+.boy__head {
+  padding-left: 104px;
+  padding-top: 7px;
+}
+.boy__neck {
+  padding-left: 106px;
+  padding-top: 25px;
+}
+.boy__T-shirt {
+  padding-left: 90px;
+  padding-top: 38px;
+  z-index: 2;
+}
+.boy__right_sleeve {
+  padding-left: 133px;
+  padding-top: 47px;
+  z-index: 3;
+}
+.boy__right_hand {
+  padding-left: 129px;
+  padding-top: 74px;
+  z-index: 2;
+}
+.boy__left_sleeve {
+  padding-left: 77px;
+  padding-top: 42px;
+  z-index: 1;
+}
+.boy__left_hand {
+  padding-left: 36px;
+  padding-top: 49px;
+}
+.boy__shorts {
+  padding-left: 92px;
+  padding-top: 119px;
+  z-index: 1;
+}
+.boy__right_leg {
+  padding-left: 125px;
+  padding-top: 148px;
+}
+.boy__left_leg {
+  padding-left: 95px;
+  padding-top: 148px;
+}
+.boy__right_sneaker {
+  padding-left: 132px;
+  padding-top: 217px;
+  z-index: 1;
+}
+.boy__left_sneaker {
+  padding-left: 77px;
+  padding-top: 217px;
+  z-index: 1;
+}
+
+.cantroler {
+  position: relative;
+  z-index: 2;
+  padding-left: 19px;
+  padding-top: 55px;
+}
+.cantroler__body {
+  padding-left: 84px;
+  padding-top: 10px;
+}
+.cantroler__R1 {
+  padding-left: 279px;
+  z-index: -1;
+}
+.cantroler__R2 {
+  padding-left: 120px;
+  z-index: -1;
+}
+.cantroler__Directional_buttons {
+  padding-left: 265px;
+  padding-top: 18px;
+}
+.cantroler__button {
+  padding-left: 101px;
+  padding-top: 18px;
+}
+.cantroler__triangle_button {
+  padding-left: 289px;
+  padding-top: 22px;
+}
+.cantroler__x_button {
+  padding-left: 290px;
+  padding-top: 58px;
+}
+.cantroler__circle_button {
+  padding-left: 308px;
+  padding-top: 40px;
+}
+.cantroler__square_button {
+  padding-left: 270px;
+  padding-top: 40px;
+}
+.cantroler__triangle {
+  padding-left: 291px;
+  padding-top: 21px;
+}
+.cantroler__a_circle {
+  padding-left: 311px;
+  padding-top: 39px;
+}
+.cantroler__x_1 {
+  padding-left: 294px;
+  padding-top: 57px;
+}
+.cantroler__x_2 {
+  padding-left: 294px;
+  padding-top: 57px;
+}
+.cantroler__square {
+  padding-left: 274px;
+  padding-top: 39px;
+}
+.cantroler__up_button {
+  padding-left: 127px;
+  padding-top: 29px;
+}
+.cantroler__down_button {
+  padding-left: 127px;
+  padding-top: 52px;
+}
+.cantroler__right_button {
+  padding-left: 136px;
+  padding-top: 42px;
+}
+.cantroler__left_button {
+  padding-left: 113px;
+  padding-top: 42px;
+}
+.cantroler__SHARE_button {
+  padding-left: 264px;
+  padding-top: 16px;
+}
+.cantroler__OPTIONS_button {
+  padding-left: 159px;
+  padding-top: 16px;
+}
+.cantroler__Touch_Pad {
+  padding-left: 171px;
+  padding-top: 13px;
+}
+.cantroler__round_bulge {
+  padding-left: 232px;
+  padding-top: 61px;
+}
+.cantroler__round-bulge {
+  padding-left: 154px;
+  padding-top: 61px;
+}
+.cantroler__Right_stick {
+  padding-left: 239px;
+  padding-top: 69px;
+}
+.cantroler__Left_stick {
+  padding-left: 161px;
+  padding-top: 69px;
+}
+.cantroler__right_stick {
+  padding-left: 244px;
+  padding-top: 74px;
+}
+.cantroler__luv_stick {
+  padding-left: 166px;
+  padding-top: 74px;
+}
+.cantroler__PS_button {
+  padding-left: 209px;
+  padding-top: 79px;
+}
+.cantroler__Speaker1 {
+  padding-left: 223px;
+  padding-top: 52px;
+}
+.cantroler__Speaker2 {
+  padding-left: 218px;
+  padding-top: 52px;
+}
+.cantroler__Speaker3 {
+  padding-left: 214px;
+  padding-top: 52px;
+}
+.cantroler__Speaker4 {
+  padding-left: 209px;
+  padding-top: 52px;
+}
+.cantroler__Speaker5 {
+  padding-left: 204px;
+  padding-top: 52px;
+}
+.cantroler__Speaker6 {
+  padding-left: 206px;
+  padding-top: 56px;
+}
+.cantroler__Speaker7 {
+  padding-left: 211px;
+  padding-top: 56px;
+}
+.cantroler__Speaker8 {
+  padding-left: 216px;
+  padding-top: 56px;
+}
+.cantroler__Speaker9 {
+  padding-left: 220px;
+  padding-top: 56px;
+}
+.cantroler__Speaker10 {
+  padding-left: 218px;
+  padding-top: 59px;
+}
+.cantroler__Speaker11 {
+  padding-left: 214px;
+  padding-top: 59px;
+}
+.cantroler__Speaker12 {
+  padding-left: 209px;
+  padding-top: 59px;
+}
+
+.headphones {
+  position: relative;
+}
+.headphones__right-cup {
+  padding-left: 173px;
+  padding-top: 41px;
+}
+.headphones__right-sealer {
+  padding-left: 166px;
+  padding-top: 54px;
+}
+.headphones__headband {
+  padding-left: 20px;
+}
+.headphones__left-cup {
+  padding-left: 62px;
+  padding-top: 158px;
+}
+.headphones__left-sealer {
+  padding-left: 73px;
+  padding-top: 150px;
+}
+
+.girl__bang {
+  padding-left: 37px;
+  padding-top: 54px;
+  z-index: 2;
+}
+.girl__head {
+  padding-left: 39px;
+  padding-top: 59px;
+  z-index: 1;
+}
+.girl__long_hair {
+  padding-left: 28px;
+  padding-top: 55px;
+}
+.girl__neck {
+  padding-left: 42px;
+  padding-top: 78px;
+}
+.girl__T-shirt {
+  padding-left: 34px;
+  padding-top: 87px;
+}
+.girl__right-sleeve {
+  padding-left: 68px;
+  padding-top: 88px;
+}
+.girl__left-sleeve {
+  padding-left: 27px;
+  padding-top: 104px;
+}
+.girl__right-hand {
+  padding-left: 70px;
+  padding-top: 107px;
+}
+.girl__left-hand {
+  padding-left: 2px;
+  padding-top: 122px;
+  z-index: 1;
+}
+.girl__right-leg {
+  padding-left: 33px;
+  padding-top: 127px;
+  z-index: 1;
+}
+.girl__left-leg {
+  padding-left: 3px;
+  padding-top: 149px;
+}
+.girl__right-ankle {
+  padding-left: 33px;
+  padding-top: 240px;
+}
+.girl__right-sneaker {
+  padding-top: 249px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.stripe {
+  padding-top: 166px;
+  padding-left: 2px;
+}
+
+.mobile {
+  display: none;
 }
 
 @media (max-width: 767px) {
@@ -167,5 +503,339 @@ a {
   }
   .box {
     height: auto;
+  }
+  .gamepad {
+    width: 344px;
+    height: 236px;
+  }
+  .gamepad__girl {
+    display: none;
+  }
+  .gamepad__boy {
+    display: none;
+  }
+  .stripe {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile__headphones {
+    position: relative;
+  }
+  .mobile__headphones_headband {
+    padding-left: 12px;
+    padding-top: 1px;
+  }
+  .mobile__headphones_right-cup {
+    padding-left: 121px;
+    padding-top: 30px;
+  }
+  .mobile__headphones_right-sealer {
+    padding-left: 116px;
+    padding-top: 38px;
+  }
+  .mobile__headphones_left-cup {
+    padding-left: 43px;
+    padding-top: 112px;
+  }
+  .mobile__headphones_left-sealer {
+    padding-left: 52px;
+    padding-top: 108px;
+  }
+  .mobile__girl {
+    position: relative;
+  }
+  .mobile__girl_head {
+    padding-left: 26px;
+    padding-top: 42px;
+    z-index: 1;
+  }
+  .mobile__girl_bang {
+    padding-left: 24px;
+    padding-top: 34px;
+    z-index: 2;
+  }
+  .mobile__girl_kara {
+    padding-left: 19px;
+    padding-top: 39px;
+  }
+  .mobile__girl_neck {
+    padding-left: 27px;
+    padding-top: 55px;
+  }
+  .mobile__girl_blouse {
+    padding-left: 22px;
+    padding-top: 62px;
+  }
+  .mobile__girl_right-sleeve {
+    padding-left: 47px;
+    padding-top: 63px;
+    z-index: 1;
+  }
+  .mobile__girl_left-sleeve {
+    padding-left: 18px;
+    padding-top: 74px;
+    z-index: 2;
+  }
+  .mobile__girl_right-hand {
+    padding-left: 48px;
+    padding-top: 76px;
+  }
+  .mobile__girl_left-hand {
+    padding-left: 0px;
+    padding-top: 87px;
+    z-index: 1;
+  }
+  .mobile__girl_right-leg {
+    padding-left: 21px;
+    padding-top: 90px;
+    z-index: 1;
+  }
+  .mobile__girl_left-leg {
+    padding-left: 0px;
+    padding-top: 106px;
+  }
+  .mobile__girl_shin {
+    padding-left: 22px;
+    padding-top: 167px;
+  }
+  .mobile__girl_sneakers {
+    padding-left: 13px;
+    padding-top: 176px;
+    z-index: 1;
+  }
+  .mobile__boy {
+    position: relative;
+  }
+  .mobile__boy_head {
+    padding-top: 77px;
+    padding-left: 293px;
+  }
+  .mobile__boy_hair {
+    padding-top: 72px;
+    padding-left: 290px;
+    z-index: 1;
+  }
+  .mobile__boy_neck {
+    padding-top: 89px;
+    padding-left: 295px;
+  }
+  .mobile__boy_T-shirt {
+    padding-top: 98px;
+    padding-left: 284px;
+    z-index: 2;
+  }
+  .mobile__boy_right-sleeve {
+    padding-top: 106px;
+    padding-left: 314px;
+    z-index: 3;
+  }
+  .mobile__boy_left-sleeve {
+    padding-top: 101px;
+    padding-left: 275px;
+    z-index: 2;
+  }
+  .mobile__boy_right-hand {
+    padding-top: 124px;
+    padding-left: 311px;
+    z-index: 2;
+  }
+  .mobile__boy_left-hand {
+    padding-top: 106px;
+    padding-left: 246px;
+    z-index: 1;
+  }
+  .mobile__boy_shorts {
+    padding-top: 156px;
+    padding-left: 285px;
+    z-index: 1;
+  }
+  .mobile__boy_right-leg {
+    padding-top: 175px;
+    padding-left: 308px;
+  }
+  .mobile__boy_left-leg {
+    padding-top: 175px;
+    padding-left: 287px;
+  }
+  .mobile__boy_right-sneaker {
+    padding-top: 223px;
+    padding-left: 313px;
+    z-index: 1;
+  }
+  .mobile__boy_left-sneaker {
+    padding-top: 223px;
+    padding-left: 275px;
+    z-index: 1;
+  }
+  .mobile__cantroler {
+    position: relative;
+    z-index: 4;
+  }
+  .mobile__cantroler_white {
+    padding-left: 108px;
+    padding-top: 117px;
+  }
+  .mobile__cantroler_R1-button {
+    padding-left: 245px;
+    padding-top: 107px;
+    z-index: -1;
+  }
+  .mobile__cantroler_L1-button {
+    padding-left: 135px;
+    padding-top: 107px;
+    z-index: -1;
+  }
+  .mobile__cantroler_Touch-Pad {
+    padding-left: 169px;
+    padding-top: 119px;
+  }
+  .mobile__cantroler_Directional-buttons {
+    padding-left: 236px;
+    padding-top: 118px;
+  }
+  .mobile__cantroler_OPTIONS-button {
+    padding-left: 161px;
+    padding-top: 118px;
+  }
+  .mobile__cantroler_rightBigCircle {
+    padding-left: 236px;
+    padding-top: 123px;
+  }
+  .mobile__cantroler_leftLargeCircle {
+    padding-left: 120px;
+    padding-top: 123px;
+  }
+  .mobile__cantroler_button-triangle {
+    padding-left: 253px;
+    padding-top: 124px;
+  }
+  .mobile__cantroler_button-Acircle {
+    padding-left: 267px;
+    padding-top: 136px;
+  }
+  .mobile__cantroler_button-x {
+    padding-left: 254px;
+    padding-top: 150px;
+  }
+  .mobile__cantroler_button-square {
+    padding-left: 240px;
+    padding-top: 137px;
+  }
+  .mobile__cantroler_triangle {
+    padding-left: 255px;
+    padding-top: 121px;
+  }
+  .mobile__cantroler_a-circle {
+    padding-left: 269px;
+    padding-top: 134px;
+  }
+  .mobile__cantroler_x1 {
+    padding-left: 257px;
+    padding-top: 147px;
+  }
+  .mobile__cantroler_x2 {
+    padding-left: 257px;
+    padding-top: 147px;
+  }
+  .mobile__cantroler_square {
+    padding-left: 242px;
+    padding-top: 134px;
+  }
+  .mobile__cantroler_top {
+    padding-left: 138px;
+    padding-top: 129px;
+  }
+  .mobile__cantroler_right {
+    padding-left: 145px;
+    padding-top: 136px;
+  }
+  .mobile__cantroler_left {
+    padding-left: 128px;
+    padding-top: 136px;
+  }
+  .mobile__cantroler_bottom {
+    padding-left: 138px;
+    padding-top: 146px;
+  }
+  .mobile__cantroler_middleCircleRight {
+    padding-left: 213px;
+    padding-top: 154px;
+  }
+  .mobile__cantroler_middleCircleLeft {
+    padding-left: 157px;
+    padding-top: 154px;
+  }
+  .mobile__cantroler_washingCircleRight {
+    padding-left: 218px;
+    padding-top: 159px;
+  }
+  .mobile__cantroler_washingCircleLeft {
+    padding-left: 162px;
+    padding-top: 159px;
+  }
+  .mobile__cantroler_stickRight {
+    padding-left: 221px;
+    padding-top: 162px;
+  }
+  .mobile__cantroler_stickLeft {
+    padding-left: 165px;
+    padding-top: 162px;
+  }
+  .mobile__cantroler_PS-button {
+    padding-left: 196px;
+    padding-top: 162px;
+  }
+  .mobile__cantroler_Speaker1 {
+    padding-left: 206px;
+    padding-top: 143px;
+  }
+  .mobile__cantroler_Speaker2 {
+    padding-left: 203px;
+    padding-top: 143px;
+  }
+  .mobile__cantroler_Speaker3 {
+    padding-left: 200px;
+    padding-top: 143px;
+  }
+  .mobile__cantroler_Speaker4 {
+    padding-left: 197px;
+    padding-top: 143px;
+  }
+  .mobile__cantroler_Speaker5 {
+    padding-left: 194px;
+    padding-top: 143px;
+  }
+  .mobile__cantroler_Speaker6 {
+    padding-left: 195px;
+    padding-top: 146px;
+  }
+  .mobile__cantroler_Speaker7 {
+    padding-left: 198px;
+    padding-top: 146px;
+  }
+  .mobile__cantroler_Speaker8 {
+    padding-left: 201px;
+    padding-top: 146px;
+  }
+  .mobile__cantroler_Speaker9 {
+    padding-left: 204px;
+    padding-top: 146px;
+  }
+  .mobile__cantroler_Speaker10 {
+    padding-left: 203px;
+    padding-top: 149px;
+  }
+  .mobile__cantroler_Speaker11 {
+    padding-left: 200px;
+    padding-top: 149px;
+  }
+  .mobile__cantroler_Speaker12 {
+    padding-left: 197px;
+    padding-top: 149px;
+  }
+  .mobile__stripe {
+    padding-top: 223px;
   }
 }/*# sourceMappingURL=style.css.map */

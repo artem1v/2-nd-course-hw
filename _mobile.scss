@@ -35,4 +35,430 @@
   .box {
     height: auto;
   }
+
+.gamepad{
+  width: 344px;
+  height: 236px;
+ 
+  &__girl{
+    display: none;
+  }
+
+  &__boy{
+    display: none;
+  }
+}
+
+.stripe{
+  display: none;
+}
+
+.mobile{
+  display: block;
+
+  &__headphones{
+    position: relative;
+
+    &_headband{
+      padding-left: 12px;
+    padding-top: 1px;
+    }
+
+    &_right-cup{
+      padding-left: 121px;
+      padding-top: 30px;
+    }
+
+    &_right-sealer{
+      padding-left: 116px;
+      padding-top: 38px;
+    }
+
+    &_left-cup{
+      padding-left: 43px;
+    padding-top: 112px;
+    }
+
+    &_left-sealer{
+      padding-left: 52px;
+      padding-top: 108px;
+    }
+  }
+
+&__girl{
+  position: relative;
+  
+  &_head{
+    padding-left: 26px;
+    padding-top: 42px;
+    z-index: 1;
+  }
+
+  &_bang{
+    padding-left: 24px;
+    padding-top: 34px;
+    z-index: 2;
+  }
+
+  &_kara{
+    padding-left: 19px;
+    padding-top: 39px;
+
+  }
+
+  &_neck{
+    padding-left: 27px;
+    padding-top: 55px;
+  }
+
+  &_blouse{
+    padding-left: 22px;
+    padding-top: 62px;
+  }
+
+  &_right-sleeve{
+    padding-left: 47px;
+    padding-top: 63px;
+    z-index: 1;
+  }
+
+  &_left-sleeve{
+    padding-left: 18px;
+    padding-top: 74px;
+    z-index: 2;
+  }
+
+  &_right-hand{
+    padding-left: 48px;
+    padding-top: 76px;
+  }
+
+  &_left-hand{
+    padding-left: 0px;
+    padding-top: 87px;
+    z-index: 1;
+  }
+
+  &_right-leg{
+    padding-left: 21px;
+    padding-top: 90px; 
+    z-index: 1;
+  }
+
+  &_left-leg{
+    padding-left: 0px;
+    padding-top: 106px;
+  }
+
+  &_shin{
+    padding-left: 22px;
+    padding-top: 167px;
+  }
+
+  &_sneakers{
+    padding-left: 13px;
+    padding-top: 176px;
+    z-index: 1;
+  }
+
+}
+
+&__boy{
+  position: relative;
+  
+
+  &_head{
+    padding-top: 77px;
+    padding-left: 293px;
+  }
+
+  &_hair{
+    padding-top: 72px;
+    padding-left: 290px;
+    z-index: 1;
+  }
+
+  &_neck{
+    padding-top: 89px;
+    padding-left: 295px;
+  }
+
+  &_T-shirt{
+    padding-top: 98px;
+    padding-left: 284px;
+    z-index: 2;
+  }
+
+  &_right-sleeve{
+    padding-top: 106px;
+    padding-left: 314px;
+    z-index: 3;
+  }
+
+  &_left-sleeve{
+    padding-top: 101px;
+    padding-left: 275px;
+    z-index: 2;
+  }
+
+  &_right-hand{
+    padding-top: 124px;
+    padding-left: 311px;
+    z-index: 2;
+  }
+
+  &_left-hand{
+    padding-top: 106px;
+    padding-left: 246px;
+    z-index: 1;
+  }
+
+  &_shorts{
+    padding-top: 156px;
+    padding-left: 285px;
+    z-index: 1;
+  }
+
+  &_right-leg{
+    padding-top: 175px;
+    padding-left: 308px;
+  }
+
+  &_left-leg{
+    padding-top: 175px;
+    padding-left: 287px;
+  }
+
+  &_right-sneaker{
+    padding-top: 223px;
+    padding-left: 313px;
+    z-index: 1;
+  }
+
+  &_left-sneaker{
+    padding-top: 223px;
+    padding-left: 275px;
+    z-index: 1;
+  }
+
+
+}
+
+&__cantroler{
+  position: relative;
+  z-index: 4;
+
+  &_white{
+    padding-left: 108px;
+    padding-top: 117px;
+  }
+
+  &_R1-button{
+    padding-left: 245px;
+    padding-top: 107px;
+    z-index: -1;
+  }
+
+  &_L1-button{
+    padding-left: 135px;
+    padding-top: 107px;
+    z-index: -1;
+  }
+
+  &_Touch-Pad{
+    padding-left: 169px;
+    padding-top: 119px;
+  }
+
+  &_Directional-buttons{
+    padding-left: 236px;
+    padding-top: 118px;
+  }
+
+  &_OPTIONS-button{
+    padding-left: 161px;
+    padding-top: 118px;
+  }
+
+  &_rightBigCircle{
+    padding-left: 236px;
+    padding-top: 123px;
+  }
+
+  &_leftLargeCircle{
+    padding-left: 120px;
+    padding-top: 123px;
+  }
+
+  &_button-triangle{
+    padding-left: 253px;
+    padding-top: 124px;
+  }
+
+  &_button-Acircle{
+    padding-left: 267px;
+    padding-top: 136px;
+  }
+
+  &_button-x{
+    padding-left: 254px;
+    padding-top: 150px;
+  }
+
+  &_button-square{
+    padding-left: 240px;
+    padding-top: 137px;
+  }
+
+  &_triangle{
+    padding-left: 255px;
+    padding-top: 121px;
+  }
+
+  &_a-circle{
+    padding-left: 269px;
+    padding-top: 134px;
+  }
+
+  &_x1{
+    padding-left: 257px;
+    padding-top: 147px;
+  }
+
+  &_x2{
+    padding-left: 257px;
+    padding-top: 147px;
+  }
+
+  &_square{
+    padding-left: 242px;
+    padding-top: 134px;
+
+  }
+
+  &_top{
+    padding-left: 138px;
+    padding-top: 129px;
+  }
+
+  &_right{
+    padding-left: 145px;
+    padding-top: 136px;
+  }
+
+  &_left{
+    padding-left: 128px;
+    padding-top: 136px;
+
+  }
+
+  &_bottom{
+    padding-left: 138px;
+    padding-top: 146px;
+  }
+
+  &_middleCircleRight{
+    padding-left: 213px;
+    padding-top: 154px;
+  }
+
+  &_middleCircleLeft{
+    padding-left: 157px;
+    padding-top: 154px;
+  }
+
+  &_washingCircleRight{
+    padding-left: 218px;
+    padding-top: 159px;
+  }
+
+  &_washingCircleLeft{
+    padding-left: 162px;
+    padding-top: 159px;
+  }
+
+  &_stickRight{
+    padding-left: 221px;
+    padding-top: 162px;
+  }
+
+  &_stickLeft{
+    padding-left: 165px;
+    padding-top: 162px;
+  }
+
+  &_PS-button{
+    padding-left: 196px;
+    padding-top: 162px;
+  }
+
+  &_Speaker1{
+    padding-left: 206px;
+    padding-top: 143px;
+  }
+
+  &_Speaker2{
+    padding-left: 203px;
+    padding-top: 143px;
+  }
+
+  &_Speaker3{
+    padding-left: 200px;
+    padding-top: 143px;
+  }
+
+  &_Speaker4{
+    padding-left: 197px;
+    padding-top: 143px;
+  }
+
+  &_Speaker5{
+    padding-left: 194px;
+    padding-top: 143px;
+  }
+
+  &_Speaker6{
+    padding-left: 195px;
+    padding-top: 146px;
+  }
+
+  &_Speaker7{
+    padding-left: 198px;
+    padding-top: 146px;
+  }
+
+  &_Speaker8{
+    padding-left: 201px;
+    padding-top: 146px;
+  }
+
+  &_Speaker9{
+    padding-left: 204px;
+    padding-top: 146px;
+  }
+
+  &_Speaker10{
+    padding-left: 203px;
+    padding-top: 149px;
+  }
+
+  &_Speaker11{
+    padding-left: 200px;
+    padding-top: 149px;
+  }
+
+  &_Speaker12{
+    padding-left: 197px;
+    padding-top: 149px;
+
+  }
+
+}
+
+&__stripe{
+  padding-top: 223px;
+}
+
+}
+
 }
