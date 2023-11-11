@@ -206,3 +206,40 @@ else if
 &&
  (логическое И).
  */
+
+ function seasons() {
+    n = Number(prompt('Введите число'));
+
+    if (isNaN(n)) {
+        return alert('Переданный параметр не является числом')
+    } else if (n === 1) {
+        return alert('Январь');
+    } else if (n === 2) {
+        return alert('Февраль');
+    } else if (n === 3) {
+        return alert('Март');
+    } else if (n === 4) {
+        return alert('Аптель');
+    } else if (n === 5) {
+        return alert('Май');
+    } else if (n === 6) {
+        return alert('Июнь');
+    } else if (n === 7) {
+        return alert('Июль');
+    } else if (n === 8) {
+        return alert('Август');
+    } else if (n === 9) {
+        return alert('Сентябрь');
+    } else if (n === 10) {
+        return alert('Октябрь');
+    } else if (n === 11) {
+        return alert('Ноябрь');
+    } else if (n === 12) {
+        return alert('Декабрь');
+    } else if (n => 12) {
+        return alert('Такова месяца нету');
+    } 
+ }
+
+
+ //let resultseasons = seasons();
