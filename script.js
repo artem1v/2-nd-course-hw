@@ -2,7 +2,7 @@
 Задание 1
 Напишите функцию, которая возвращает меньшее из 2 чисел. Например, из двух чисел — 8 и 4 — функция должна вернуть 4. Если передадим 6 и 6, то функция должна вернуть 6.
 */
-/*
+
 
 function tsyfra(a, d) {
   //  a = prompt('введите первое число');
@@ -19,13 +19,13 @@ if (a <= d) {
     
 alert(tsyfra(6, 5));
 let resultTsyfra = tsyfra();
-*/
+
 
 /*
 Задание 2
 Напишите функцию, которая принимает число, а возвращает строку 'Число четное', если число четное, 'Число нечетное' — если нечетное.
 */
-/*
+
 function evenNotEven(n) {
 
 if (n % 2 == 0) {
@@ -38,14 +38,14 @@ if (n % 2 == 0) {
 const n = prompt('введите первое число');
 const resultEvenNotEven = evenNotEven(n);
 alert(resultEvenNotEven);
-*/
+
 /*
 Задание 3
 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
 3.2. Напишите функцию, которая принимает параметром число и возвращает квадрат этого числа.
 */
-/*
+
 function square(b) {
     b = prompt('введите число');
     return alert(b ** 2);
@@ -63,7 +63,7 @@ function squareConsole(c) {
 
 let resultSquareConsole = squareConsole();
 console.log(squareConsole(7));
-*/
+
 /*
 Задание 4
 Создайте функцию, которая:
@@ -75,7 +75,7 @@ console.log(squareConsole(7));
 *Подсказка: можете выполнить это задание с помощью оператора 
 if else
 */
-/*
+
 function age(e) {
    const e = prompt('Сколько вам лет?');
     
@@ -89,7 +89,7 @@ function age(e) {
 }
      
 let resultAge = age();
-*/
+
 /*
 Задание 5
 Напишите функцию, которая на вход принимает 2 числа:
@@ -100,7 +100,7 @@ isNaN()
 Если нет, то вернуть строку 'Одно или оба значения не являются числом'.
 Если оба параметра — числа, то вернуть произведение данных чисел.
 */
-/*
+
 function number(f, g) {
     f = Number(prompt('Введите первое число'));
     g = Number(prompt('Введите второе число'));
@@ -115,7 +115,7 @@ function number(f, g) {
 }
 
 let resultNumber = number();
-*/
+
 /*
 Задание 6
 Напишите функцию, которая спрашивает у пользователя число, проверяет его на корректность, после чего возводит его в куб и возвращает следующую строку: 
@@ -126,7 +126,7 @@ let resultNumber = number();
 от 0 до 10
  включительно.
 */
-/*
+
 function cubeNumber() {
     n = Number(prompt('Введите число'));
 
@@ -146,7 +146,7 @@ for (let n = 0; n <= 10; n++) {
 } 
 alert(cubeNumber());
 let resultCubeNumber = cubeNumber();
-*/
+
 
  /*
 Задание 7
@@ -158,7 +158,7 @@ getArea
 getPerimeter
  , который возвращает периметр окружности.
 */
-/*
+
 function getRectangleArea() {
     return this.radius * this.area;
   }
@@ -186,7 +186,7 @@ console.log(circle1.getArea());
 console.log(circle1.getPerimeter());
 console.log(circle2.getArea());
 console.log(circle2.getPerimeter());
-*/
+
  /*
 Задание 8. Работа с макетом
 Сверстайте второй блок сайта с играми. Ссылка на макет.
