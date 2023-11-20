@@ -3,7 +3,7 @@
 Напишите функцию, которая возвращает меньшее из 2 чисел. Например, из двух чисел — 8 и 4 — функция должна вернуть 4. Если передадим 6 и 6, то функция должна вернуть 6.
 */
 
-
+/*
 function tsyfra(a, d) {
   //  a = prompt('введите первое число');
   //  d = prompt('введите второе число');
@@ -19,13 +19,13 @@ if (a <= d) {
     
 alert(tsyfra(6, 5));
 let resultTsyfra = tsyfra();
-
+*/
 
 /*
 Задание 2
 Напишите функцию, которая принимает число, а возвращает строку 'Число четное', если число четное, 'Число нечетное' — если нечетное.
 */
-
+/*
 function evenNotEven(n) {
 
 if (n % 2 == 0) {
@@ -38,14 +38,14 @@ if (n % 2 == 0) {
 const n = prompt('введите первое число');
 const resultEvenNotEven = evenNotEven(n);
 alert(resultEvenNotEven);
-
+*/
 /*
 Задание 3
 3.1. Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
 3.2. Напишите функцию, которая принимает параметром число и возвращает квадрат этого числа.
 */
-
+/*
 function square(b) {
     b = prompt('введите число');
     return alert(b ** 2);
@@ -63,7 +63,7 @@ function squareConsole(c) {
 
 let resultSquareConsole = squareConsole();
 console.log(squareConsole(7));
-
+*/
 /*
 Задание 4
 Создайте функцию, которая:
@@ -75,7 +75,7 @@ console.log(squareConsole(7));
 *Подсказка: можете выполнить это задание с помощью оператора 
 if else
 */
-
+/*
 function age(e) {
    const e = prompt('Сколько вам лет?');
     
@@ -89,7 +89,7 @@ function age(e) {
 }
      
 let resultAge = age();
-
+*/
 /*
 Задание 5
 Напишите функцию, которая на вход принимает 2 числа:
@@ -100,7 +100,7 @@ isNaN()
 Если нет, то вернуть строку 'Одно или оба значения не являются числом'.
 Если оба параметра — числа, то вернуть произведение данных чисел.
 */
-
+/*
 function number(f, g) {
     f = Number(prompt('Введите первое число'));
     g = Number(prompt('Введите второе число'));
@@ -115,7 +115,7 @@ function number(f, g) {
 }
 
 let resultNumber = number();
-
+*/
 /*
 Задание 6
 Напишите функцию, которая спрашивает у пользователя число, проверяет его на корректность, после чего возводит его в куб и возвращает следующую строку: 
@@ -126,7 +126,7 @@ let resultNumber = number();
 от 0 до 10
  включительно.
 */
-
+/*
 function cubeNumber() {
     n = Number(prompt('Введите число'));
 
@@ -146,19 +146,19 @@ for (let n = 0; n <= 10; n++) {
 } 
 alert(cubeNumber());
 let resultCubeNumber = cubeNumber();
+*/
 
-
- /*
+/*
 Задание 7
 Создайте объекты circle1 и circle2 со свойством 
 radius
 . У объектов должен быть методам 
 getArea
- , которое возвращает площадь круга через радиус, а также 
+, которое возвращает площадь круга через радиус, а также 
 getPerimeter
- , который возвращает периметр окружности.
+, который возвращает периметр окружности.
 */
-
+/*
 function getRectangleArea() {
     return this.radius * this.area;
   }
@@ -186,8 +186,8 @@ console.log(circle1.getArea());
 console.log(circle1.getPerimeter());
 console.log(circle2.getArea());
 console.log(circle2.getPerimeter());
-
- /*
+*/
+/*
 Задание 8. Работа с макетом
 Сверстайте второй блок сайта с играми. Ссылка на макет.
 Создайте его адаптивную версию и добавьте эффекты наведения.
@@ -200,46 +200,64 @@ console.log(circle2.getPerimeter());
 
 Для решения задачи используйте конструкцию 
 else if
- и логические операторы 
+и логические операторы 
 ||
- (логическое ИЛИ) и 
+(логическое ИЛИ) и 
 &&
- (логическое И).
- */
+(логическое И).
+*/
 
- function seasons() {
+function seasons() {
     n = Number(prompt('Введите число'));
 
-    if (isNaN(n)) {
-        return alert('Переданный параметр не является числом')
-    } else if (n === 1) {
-        return alert('Январь');
-    } else if (n === 2) {
-        return alert('Февраль');
-    } else if (n === 3) {
-        return alert('Март');
-    } else if (n === 4) {
-        return alert('Аптель');
-    } else if (n === 5) {
-        return alert('Май');
-    } else if (n === 6) {
-        return alert('Июнь');
-    } else if (n === 7) {
-        return alert('Июль');
-    } else if (n === 8) {
-        return alert('Август');
-    } else if (n === 9) {
-        return alert('Сентябрь');
-    } else if (n === 10) {
-        return alert('Октябрь');
-    } else if (n === 11) {
-        return alert('Ноябрь');
-    } else if (n === 12) {
-        return alert('Декабрь');
-    } else if (n => 12) {
-        return alert('Такова месяца нету');
-    } 
- }
+if (isNaN(n)) {
+    return alert('Переданный параметр не является числом')
+}  if (1 && 2 && 12) {
+    return alert('Зима');
+}  if (3 && 4 && 5) {
+    return alert('Весна');
+}  if (6 && 7 && 8) {
+    return alert('Лето');
+}  if (9 && 10 && 11) {
+    return alert('Осень');
+}  if (n => 12) {
+    return alert('Токого месяца нету');
+}
+    
 
 
- //let resultseasons = seasons();
+
+    /*
+        if (isNaN(n)) {
+            return alert('Переданный параметр не является числом')
+        }  if (n === 1) {
+            return alert('Январь');
+        }  if (n === 2) {
+            return alert('Февраль');
+        }  if (n === 3) {
+            return alert('Март');
+        }  if (n === 4) {
+            return alert('Аптель');
+        }  if (n === 5) {
+            return alert('Май');
+        }  if (n === 6) {
+            return alert('Июнь');
+        }  if (n === 7) {
+            return alert('Июль');
+        }  if (n === 8) {
+            return alert('Август');
+        }  if (n === 9) {
+            return alert('Сентябрь');
+        }  if (n === 10) {
+            return alert('Октябрь');
+        }  if (n === 11) {
+            return alert('Ноябрь');
+        }  if (n === 12) {
+            return alert('Декабрь');
+        }  if (n => 12) {
+            return alert('Токого месяца нету');
+        } */
+}
+
+
+//let resultseasons = seasons();
