@@ -210,20 +210,20 @@ else if
 function seasons() {
     n = Number(prompt('Введите число'));
 
-if (isNaN(n)) {
-    return alert('Переданный параметр не является числом')
-}  if (1 && 2 && 12) {
-    return alert('Зима');
-}  if (3 && 4 && 5) {
-    return alert('Весна');
-}  if (6 && 7 && 8) {
-    return alert('Лето');
-}  if (9 && 10 && 11) {
-    return alert('Осень');
-}  if (n => 12) {
-    return alert('Токого месяца нету');
-}
-    
+    if (isNaN(n)) {
+        return alert('Переданный параметр не является числом')
+    } if (n === 1 || n === 2 || n === 12) {
+        return alert('Зима');
+    } if (n === 3 || n === 4 || n === 5) {
+        return alert('Весна');
+    } if (n === 6 || n === 7 || n === 8) {
+        return alert('Лето');
+    } if (n === 9 || n === 10 || n === 11) {
+        return alert('Осень');
+    } else {
+        return alert('Токого месяца нету');
+    }
+
 
 
 
