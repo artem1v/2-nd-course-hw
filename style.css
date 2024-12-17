@@ -475,6 +475,13 @@ a {
   display: none;
 }
 
+.words {
+  background-image: url(img/Rectangle\ 7@2x.jpg);
+  width: 1440px;
+  height: 800px;
+  top: 2380px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;

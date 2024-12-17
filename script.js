@@ -207,6 +207,7 @@ else if
 (логическое И).
 */
 
+/*
 function seasons() {
     n = Number(prompt('Введите число'));
 
@@ -223,8 +224,8 @@ function seasons() {
     } else {
         return alert('Токого месяца нету');
     }
-
-
+    }
+*/
 
 
     /*
@@ -256,8 +257,8 @@ function seasons() {
             return alert('Декабрь');
         }  if (n => 12) {
             return alert('Токого месяца нету');
-        } */
-}
+        } 
+    */
 
 
 //let resultseasons = seasons();
