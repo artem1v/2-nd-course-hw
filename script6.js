@@ -63,7 +63,7 @@ console.log(number);
 [[1, 1, 1], [1, 1, 1], [1, 1, 1]].
 */
 
-
+/*
 const number = [
     [1, 1, 1,],
     [1, 1, 1,],
@@ -80,6 +80,21 @@ for (const arrIn of number) {
 for (const arrIn of number) {
         console.log(arrIn);
     }
+*/
+
+/*
+Задание 5
+Дан массив: 
+[1, 1, 1]
+. Добавьте в конец массива значения 2, 2, 2.
+*/
+
+const number = [1, 1, 1,];
+
+number.push(2);
+number.push(2);
+number.push(2);
+console.log(number);
 
 
 
