@@ -109,5 +109,9 @@ const numberdok = [9, 8, 7, 'a', 6, 5];
 
 console.log(numberdok.sort());
 console.log(numberdok.pop());
+const filteredAges = numberdok.filter(numberdok => numberdok >= 5);
 console.log(numberdok);
+console.log(filteredAges);
+
+
 
