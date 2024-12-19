@@ -88,13 +88,26 @@ for (const arrIn of number) {
 [1, 1, 1]
 . Добавьте в конец массива значения 2, 2, 2.
 */
-
+/*
 const number = [1, 1, 1,];
 
 number.push(2);
 number.push(2);
 number.push(2);
 console.log(number);
+*/
 
+/*
+Задание 6
+Дан массив: 
+[9, 8, 7, 'a', 6, 5].
 
+С помощью метода sort отсортируйте массив и удалите букву 'a' из массива. Затем выведите массив.
+ */
+
+const numberdok = [9, 8, 7, 'a', 6, 5];
+
+console.log(numberdok.sort());
+console.log(numberdok.pop());
+console.log(numberdok);
 
