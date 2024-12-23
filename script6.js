@@ -30,20 +30,9 @@
 
 const arr = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === 4) {
-    console.log(i);
-    break;
-    }
-}
-
-
-
-const arra = [1, 5, 4, 10, 0, 3];
-
 const isLargeNumber = (element) => element === 4;
 
-console.log(arra.findIndex(isLargeNumber));
+console.log(arr.findIndex(isLargeNumber));
 
 
 
