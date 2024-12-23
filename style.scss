@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.div {
+    background-image: url(img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1024px;
+    flex-shrink: 0;
+}
+
+.title {
+    color: #FFF;
+    font-size: 64px;
+    padding-top: 217px;
+    padding-bottom: 32px;
+    max-width: 788px;
+}
+
+.top__text {
+    color: #FFF;
+    font-size: 18px;
+    padding-bottom: 57px;
+    max-width: 481px;
+}
+
+.button {
+    font-size: 18px;
+    border-radius: 30px;
+    background: #9C0332;
+    border: #9C0332;
+    height: 48px;
+    width: 234px;
+}
+
+.button {
+    transition: all 1s;
+}
+
+.button:hover {
+    border-radius: 30px;
+    background: #EB443F;
+}
+
+.box {
+    background-image: url(img/Rectangle\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding-bottom: 128px;
+    
+}
+
+.menu__div {
+    width: 379px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 16px;
+}
+
+.menu__link {
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.menu__div_1 {
+    background-image: url(img/Rectangle\ 6.jpg);
+}
+
+.menu__div_2 {
+    background-image: url(img/Rectangle\ 7.jpg);
+}
+
+.menu__div_3 {
+    background-image: url(img/Rectangle\ 8.jpg);
+}
+
+.menu__div {
+    transition: all 0.3s;
+}
+
+.menu__div:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+}
+
+.Seasons{
+   background-image: url(img/Rectangle\ 5.jpg);
+   display: flex;
+   flex-wrap: wrap;
+   gap: 130px;
+}
+
+.game__seasons{
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top: 282px
+}
+
+.title__seasons{
+    color: #FFF;
+    font-size: 48px;
+}
+
+.top__text_seasons{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    width: 584px;
+}
+
+.gamepad{
+    width: 485px;
+    height: 333px;
+    padding-top: 234px;
+    padding-bottom: 234px;
+}
+
+.item{
+    position: absolute;
+    }
+
+.gamepad__boy{
+    padding-left: 51px;
+    padding-top: 34px;
+}
+
+.boy{
+    position: relative;
+    padding-left: 261px;
+    padding-top: 66px;
+   
+    &__hair{
+        padding-left: 100px;
+        z-index: 1;
+    }
+
+    &__head{
+        padding-left: 104px;
+        padding-top: 7px;
+    }
+
+    &__neck{
+        padding-left: 106px;
+        padding-top: 25px;
+    }
+
+    &__T-shirt{
+        padding-left: 90px;
+        padding-top: 38px;
+        z-index: 2;
+    }
+    
+    &__right_sleeve{
+        padding-left: 133px;
+        padding-top: 47px;
+        z-index: 3;
+    }
+    
+    &__right_hand{
+        padding-left: 129px;
+        padding-top: 74px;
+        z-index: 2;
+    }
+    
+    &__left_sleeve{
+        padding-left: 77px;
+        padding-top: 42px;
+        z-index: 1;
+    }
+    
+    &__left_hand{
+        padding-left: 36px;
+        padding-top: 49px;
+    }
+    
+    &__shorts{
+        padding-left: 92px;
+        padding-top: 119px;
+        z-index: 1;
+    }
+    
+    &__right_leg{
+        padding-left: 125px;
+        padding-top: 148px;
+    }
+    
+    &__left_leg{
+        padding-left: 95px;
+        padding-top: 148px;
+    }
+    
+    &__right_sneaker{
+        padding-left: 132px;
+        padding-top: 217px;
+        z-index: 1;
+    }
+    
+    &__left_sneaker{
+        padding-left: 77px;
+        padding-top: 217px;
+        z-index: 1;
+    }
+
+}
+
+.cantroler{
+    position: relative;
+    z-index: 2;
+    padding-left: 19px;
+    padding-top: 55px;
+
+    &__body{
+        padding-left: 84px;
+        padding-top: 10px;
+        
+    }
+    &__R1{
+        padding-left: 279px; 
+        z-index: -1;
+    }
+    &__R2{
+        padding-left: 120px;
+        z-index: -1;
+    }
+
+    &__Directional_buttons{
+        padding-left: 265px;
+        padding-top: 18px;
+    }
+
+    &__button{
+        padding-left: 101px;
+    padding-top: 18px;
+    }
+
+    &__triangle_button{
+        padding-left: 289px;
+    padding-top: 22px;
+    }
+
+    &__x_button{
+        padding-left: 290px;
+        padding-top: 58px;
+    }
+
+    &__circle_button{
+        padding-left: 308px;
+        padding-top: 40px;
+    }
+
+    &__square_button{
+        padding-left: 270px;
+    padding-top: 40px;
+    }
+
+    &__triangle{
+        padding-left: 291px;
+        padding-top: 21px;
+    }
+
+    &__a_circle{
+        padding-left: 311px;
+        padding-top: 39px;
+    }
+
+    &__x_1{
+        padding-left: 294px;
+        padding-top: 57px;
+    }
+
+    &__x_2{
+        padding-left: 294px;
+        padding-top: 57px;
+    }
+
+    &__square{
+        padding-left: 274px;
+        padding-top: 39px;
+    }
+
+    &__up_button{
+        padding-left: 127px;
+    padding-top: 29px;
+    }
+
+    &__down_button{
+        padding-left: 127px;
+    padding-top: 52px;
+    }
+
+    &__right_button{
+        padding-left: 136px;
+        padding-top: 42px;
+    }
+
+    &__left_button{
+        padding-left: 113px;
+    padding-top: 42px;
+    }
+
+    &__SHARE_button{
+        padding-left: 264px;
+    padding-top: 16px;
+    }
+
+    &__OPTIONS_button{
+        padding-left: 159px;
+        padding-top: 16px;
+    }
+
+    &__Touch_Pad{
+        padding-left: 171px;
+        padding-top: 13px;
+    }
+
+    &__round_bulge{
+        padding-left: 232px;
+        padding-top: 61px;
+    }
+
+    &__round-bulge{
+        padding-left: 154px;
+        padding-top: 61px;
+    }
+
+    &__Right_stick{
+        padding-left: 239px;
+        padding-top: 69px;
+    }
+
+    &__Left_stick{
+        padding-left: 161px;
+    padding-top: 69px;
+    }
+
+    &__right_stick{
+        padding-left: 244px;
+        padding-top: 74px;
+    }
+
+    &__luv_stick{
+        padding-left: 166px;
+        padding-top: 74px;
+    }
+
+    &__PS_button{
+        padding-left: 209px;
+    padding-top: 79px;
+    }
+
+    &__Speaker1{
+        padding-left: 223px;
+        padding-top: 52px;
+    }
+
+    &__Speaker2{
+        padding-left: 218px;
+    padding-top: 52px;
+    }
+
+    &__Speaker3{
+        padding-left: 214px;
+        padding-top: 52px; 
+    }
+
+    &__Speaker4{
+        padding-left: 209px;
+        padding-top: 52px;
+    }
+
+    &__Speaker5{
+        padding-left: 204px;
+    padding-top: 52px;
+    }
+
+    &__Speaker6{
+        padding-left: 206px;
+        padding-top: 56px;
+    }
+
+    &__Speaker7{
+        padding-left: 211px;
+        padding-top: 56px;
+    
+    }
+
+    &__Speaker8{
+        padding-left: 216px;
+        padding-top: 56px;
+    }
+
+    &__Speaker9{
+        padding-left: 220px;
+    padding-top: 56px;
+    }
+
+    &__Speaker10{
+        padding-left: 218px;
+        padding-top: 59px;   
+    }
+
+    &__Speaker11{
+        padding-left: 214px;
+        padding-top: 59px;
+    }
+
+    &__Speaker12{
+        padding-left: 209px;
+        padding-top: 59px; 
+    }
+
+
+
+}
+
+.gamepad__girl{
+
+}
+
+.headphones{
+    position: relative; 
+
+    &__right-cup{
+        padding-left: 173px;
+        padding-top: 41px;
+    }
+
+    &__right-sealer{
+        padding-left: 166px;
+        padding-top: 54px;
+    }
+
+    &__headband{
+        padding-left: 20px;
+    }
+
+    &__left-cup{
+        padding-left: 62px;
+        padding-top: 158px;
+    }
+
+    &__left-sealer{
+        padding-left: 73px;
+        padding-top: 150px;
+    }
+
+}
+
+.girl{
+    &__bang{
+        padding-left: 37px;
+        padding-top: 54px;
+        z-index: 2;
+    }
+
+    &__head{
+        padding-left: 39px;
+        padding-top: 59px;
+        z-index: 1;
+    }
+
+    &__long_hair{
+        padding-left: 28px;
+        padding-top: 55px;
+    }
+
+    &__neck{
+        padding-left: 42px;
+        padding-top: 78px;
+    }
+
+    &__T-shirt{
+        padding-left: 34px;
+        padding-top: 87px;
+    }
+
+    &__right-sleeve{
+        padding-left: 68px;
+        padding-top: 88px;
+    }
+
+    &__left-sleeve{
+        padding-left: 27px;
+        padding-top: 104px;
+    }
+
+    &__right-hand{
+        padding-left: 70px;
+        padding-top: 107px;
+    }
+
+    &__left-hand{
+        padding-left: 2px;
+        padding-top: 122px;
+        z-index: 1;
+    }
+
+    &__right-leg{
+        padding-left: 33px;
+        padding-top: 127px;
+        z-index: 1;
+    }
+
+    &__left-leg{
+        padding-left: 3px;
+        padding-top: 149px;
+    }
+
+    &__right-ankle{
+        padding-left: 33px;
+        padding-top: 240px;
+    }
+
+    &__right-sneaker{
+        padding-top: 249px;
+        padding-left: 20px;
+        z-index: 1;
+    }
+
+}
+
+.stripe{
+    padding-top: 166px;
+    padding-left: 2px;
+}
+
+.mobile{
+    display: none;
+}
+
+.words{
+    background-image: url(img/Rectangle\ 7@2x.jpg);
+    width: 1440px;
+    height: 800px;
+    top: 2380px;
+    
+}
+
+@import 'mobile';
