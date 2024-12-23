@@ -10,13 +10,13 @@
  в консоль цикл должен прекратить свою работу.
  */
 
-/*
+
  const numbers = [1, 5, 4, 10, 0, 3];
  for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
     if (numbers[i] === 10) break;
     }
-*/
+
 
 /*
 Задание 2
@@ -27,7 +27,7 @@
 4 в этом массиве.
 */
 
-/*
+
 const arr = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < arr.length; i++) {
@@ -36,15 +36,15 @@ for (let i = 0; i < arr.length; i++) {
     break;
     }
 }
-*/
 
-/*
-const arr = [1, 5, 4, 10, 0, 3];
+
+
+const arra = [1, 5, 4, 10, 0, 3];
 
 const isLargeNumber = (element) => element === 4;
 
-console.log(arr.findIndex(isLargeNumber));
-*/
+console.log(arra.findIndex(isLargeNumber));
+
 
 
 
@@ -59,7 +59,7 @@ join
  выведите элементы массива через пробел (пустую строку ' ').
 */
 
-/*
+
 let number = [1, 3, 5, 10, 20];
 number = number.join(' ');
 console.log(number);
@@ -67,7 +67,7 @@ console.log(number);
 
 const arr = [1, 3, 5, 10, 20];
 console.log(arr.join(' '));
-*/
+
 
 
 // Задание 4
@@ -87,7 +87,7 @@ console.log(arr.join(' '));
 // for
 // .
 
-/*
+
 
 const arr = [];
 
@@ -103,7 +103,7 @@ for (let i = 0; i < 3; i++) {
 
 console.log(arr);
 
-*/
+
 
 /*
 Задание 5
@@ -111,11 +111,11 @@ console.log(arr);
 [1, 1, 1]
 . Добавьте в конец массива значения 2, 2, 2.
 */
-/*
+
 const arr = [1, 1, 1,];
 arr.push(2, 2, 2);
 console.log(arr);
-*/
+
 /*
 Задание 6
 Дан массив: 
@@ -142,7 +142,7 @@ console.log(filteredAges);
 alert «Угадал», в противном случае — «Не угадал».
 */
 
-/*
+
 
 const arr = [9, 8, 7, 6, 5,];
 
@@ -153,7 +153,7 @@ if (arr.includes(userNuder)) {
     alert('Не угадал');
 }
 
-*/
+
 
 
 
@@ -181,7 +181,7 @@ if (arr.includes(userNuder)) {
 //  reverse()
 //   и снова преобразуйте в строку.
 
-/*
+
 let str = 'abcdef';
 
 str = str.split('');
@@ -189,12 +189,12 @@ console.log(str);
 str.reverse();
 str = str.join('');
 console.log(str);
-*/
 
-/*
+
+
 str = str.split('').reverse().join('');
 console.log(str);
-*/
+
 
 //  Задание 9
 //  Дан массив: 
@@ -214,21 +214,11 @@ console.log(str);
 //  spread
 //   для объединения массивов.
 
-/*
-const arr = [[1, 2, 3,], [4, 5, 6]];
-const arr2 = [];
 
-for (let i = 0; i < arr.length; i++) {
-    arr2.push(...arr[i]);
-    
-}
-console.log(arr2);
-*/
 
-/*
 const arr = [[1, 2, 3,], [4, 5, 6]];
 console.log(arr.flat());
-*/
+
 
 
 //  Задание 10
@@ -256,7 +246,7 @@ console.log(arr.flat());
 //  for
 //   для перебора элементов и вычисления суммы. Учтите, что для последнего элемента нет последующего!
 
-/*
+
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = 0; i < arr.length; i++) {
     if (arr[i + 1]) {
@@ -264,7 +254,7 @@ for (let i = 0; i < arr.length; i++) {
     }
     
 }
-*/
+
 
 
 //  Задание 11
@@ -281,13 +271,13 @@ for (let i = 0; i < arr.length; i++) {
 //  map()
 //   для создания нового массива на основе исходного массива.
 
-/*
+
 function square(arr) {
     return arr.map(item => item ** 2);
 }
 
 console.log(square([5, 9, 12]));
-*/
+
 
 //  Задание 12
 //  Создайте функцию, которая принимает на вход массив строк, а возвращает массив длины слов.
@@ -303,13 +293,13 @@ console.log(square([5, 9, 12]));
 //  map()
 //   для создания нового массива, где каждый элемент является длиной строки из исходного массива.
 
-/*
+
 function texLength(arr) {
     return arr.map(item => item.length);
 }
 
 console.log(texLength(['love', 'eat']));
-*/
+
 
 
 //  Задание 13
@@ -326,12 +316,12 @@ console.log(texLength(['love', 'eat']));
 //  filter()
 //   для создания нового массива на основе условия проверки отрицательности числа.
  
-/*
+
  function number(array) {
     return array.filter(item => item < 0);
  }
 console.log(number([3, 15, 25, -7, 12, -5, 10]));
-*/
+
 
 
 //  Задание 14
@@ -353,7 +343,7 @@ console.log(number([3, 15, 25, -7, 12, -5, 10]));
 //  filter()
 // для создания массива с четными числами.
 
-/*
+
 function randomNumb() {
     return Math.floor(Math.random() * 10);
 }
@@ -377,7 +367,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log(evenArr);
-*/
+
 
 //  Задание 15
 //  Создайте массив, состоящий из 6 элементов. Элементы массива необходимо сгенерировать с помощью 
@@ -398,7 +388,7 @@ console.log(evenArr);
 //   для суммирования всех элементов массива и разделите результат на их количество.
 
 
-/*
+
 
 function randomNumb() {
     return Math.floor(Math.random() * 10);
@@ -413,21 +403,3 @@ for (let i = 0; i < 10; i++) {
 
 console.log(arr);
 console.log(arr.reduce((a, b) => a + b) / arr.length);
-*/
-
-/*
-
-function randomNumb() {
-    return Math.floor(Math.random() * 10);
-}
-
-const arr = [];
-
-for (let i = 0; i < 10; i++) {
-    arr.push(randomNumb());
-    
-}
-
-console.log(arr);
-console.log(arr.reduce((a, b) => a + b) / arr.length);
-*/
