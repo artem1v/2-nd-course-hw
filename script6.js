@@ -48,14 +48,8 @@ join
  выведите элементы массива через пробел (пустую строку ' ').
 */
 
-
-let number = [1, 3, 5, 10, 20];
-number = number.join(' ');
-console.log(number);
-
-
-const arr = [1, 3, 5, 10, 20];
-console.log(arr.join(' '));
+const arra = [1, 3, 5, 10, 20];
+console.log(arra.join(' '));
 
 
 
@@ -78,7 +72,7 @@ console.log(arr.join(' '));
 
 
 
-const arr = [];
+const array = [];
 
 
 for (let i = 0; i < 3; i++) {
@@ -87,10 +81,10 @@ for (let i = 0; i < 3; i++) {
         arr2.push(1);
         
     }
-    arr.push(arr2);
+    array.push(arr2);
 }
 
-console.log(arr);
+console.log(array);
 
 
 
@@ -101,9 +95,9 @@ console.log(arr);
 . Добавьте в конец массива значения 2, 2, 2.
 */
 
-const arr = [1, 1, 1,];
+const arro = [1, 1, 1,];
 arr.push(2, 2, 2);
-console.log(arr);
+console.log(arro);
 
 /*
 Задание 6
@@ -133,10 +127,10 @@ alert «Угадал», в противном случае — «Не угада
 
 
 
-const arr = [9, 8, 7, 6, 5,];
+const arru = [9, 8, 7, 6, 5,];
 
 const userNuder = +prompt('Введите число');
-if (arr.includes(userNuder)) {
+if (arru.includes(userNuder)) {
     alert('Угадал');
 } else {
     alert('Не угадал');
@@ -173,14 +167,6 @@ if (arr.includes(userNuder)) {
 
 let str = 'abcdef';
 
-str = str.split('');
-console.log(str);
-str.reverse();
-str = str.join('');
-console.log(str);
-
-
-
 str = str.split('').reverse().join('');
 console.log(str);
 
@@ -205,8 +191,8 @@ console.log(str);
 
 
 
-const arr = [[1, 2, 3,], [4, 5, 6]];
-console.log(arr.flat());
+const arry = [[1, 2, 3,], [4, 5, 6]];
+console.log(arry.flat());
 
 
 
@@ -236,10 +222,10 @@ console.log(arr.flat());
 //   для перебора элементов и вычисления суммы. Учтите, что для последнего элемента нет последующего!
 
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i + 1]) {
-        console.log(arr[i] + arr[i + 1]);
+const arrn = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < arrn.length; i++) {
+    if (arrn[i + 1]) {
+        console.log(arrn[i] + arrn[i + 1]);
     }
     
 }
@@ -337,20 +323,20 @@ function randomNumb() {
     return Math.floor(Math.random() * 10);
 }
 
-const arr = [];
+const arrj = [];
 
 for (let i = 0; i < 10; i++) {
-    arr.push(randomNumb());
+    arrj.push(randomNumb());
     
 }
 
-console.log(arr);
+console.log(arrj);
 
 const evenArr = [];
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 === 0) {
-        evenArr.push(arr[i]);
+for (let i = 0; i < arrj.length; i++) {
+    if (arrj[i] % 2 === 0) {
+        evenArr.push(arrj[i]);
     }
     
 }
@@ -383,12 +369,12 @@ function randomNumb() {
     return Math.floor(Math.random() * 10);
 }
 
-const arr = [];
+const arre = [];
 
 for (let i = 0; i < 10; i++) {
-    arr.push(randomNumb());
+    arre.push(randomNumb());
     
 }
 
-console.log(arr);
-console.log(arr.reduce((a, b) => a + b) / arr.length);
+console.log(arre);
+console.log(arre.reduce((a, b) => a + b) / arr.length);
