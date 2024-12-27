@@ -6,11 +6,11 @@
 // Критерии оценки
 
 
-/*
+
  const line = 'js';
  line.toUpperCase();
  console.log(line);
-*/
+
 
 
 // Задание 2
