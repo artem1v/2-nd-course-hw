@@ -114,29 +114,62 @@ console.log(Number('${a}'));
 //  (включительно) до
 // 1
 //  (не включая).
+/*
+function randomNumb(n) {
+  return n = Math.random() * n;
+}
+
+const arrj = [];
+
+for (let i = 0; i < 6; i++) {
+  arrj.push(randomNumb('${n}'));
+  
+}
 
 
+let n = randomNumb(6);
 
+console.log(arrj);
+
+*/
 
 // Задание 7
 // Создать функцию, которая принимает два целых числа и возвращает случайное число в этом диапазоне.
 
 
 // Критерии оценки
+/*
+function random(e, b) {
+  e = Number(prompt('Ведите первое число'));
+  b = Number(prompt('Ведите второе число'));
+  return randomNum = Math.floor(Math.random() * (e - b + 1)) + e;
 
+
+}
+alert(randomNum());
+*/
 // Задание 8
 // Вывести в консоль текущую дату.
 
-
 // Критерии оценки
+
+let currentDate = new Date();
+console.log(currentDate);
 
 // Задание 9
 // Создать переменную
 // currentDate
 // , хранящую текущую дату. Вывести дату, которая наступит через 73 дня после текущей.
 
-
 // Критерии оценки
+
+let myDate = new Date();
+console.log(+myDate);
+let days73 = 73 * 24 * 60 * 60 * 1000;
+let searchDate = myDate + days73;
+let daysAgo73 = new Date(searchDate);
+console.log(daysAgo73);
+
 
 // Задание 10
 // Написать функцию, которая принимает дату и возвращает ее в формате:
