@@ -7,9 +7,9 @@
 
 
 
- const line = 'js';
- line.toUpperCase();
- console.log(line);
+let line = 'js';
+line = line.toUpperCase();
+console.log(line);
 
 
 
@@ -25,23 +25,15 @@
 //  и 
 // startsWith()
 //  для сравнения начала строк.
-/*
+
 function myFunction(array, string) {
 
-const filteredAges = array.filter (age => {
-    if (age.toLowerCase().startsWith(string.toLowerCase())) {
-        return filteredAges;
-     }
-  });
-
+  const lowerString = string.toLowerCase();
+  return array.filter(item => item.toLowerCase().startsWith(lowerString));
 }
 
-myFunction(['apple', 'banana'], 'a', 'd');
-let a = ['пирожёк', 'хлеб крестьянский', 'хлеб бородинский', 'хлеб чусовской'];
-let d = ('хлеб пшеничный');
+console.log(myFunction(['пирожёк', 'хлеб крестьянский', 'хлеб бородинский'], 'хлеб'));
 
-console.log(myFunction(a));
-*/
 // Задание 3
 // Округлить число 32.58884:
 
@@ -59,11 +51,13 @@ console.log(myFunction(a));
 // Math.round()
 //  для округления значений.
 
-console.log(Math.floor(32.58884));
+let num = 32.58884;
 
-console.log(Math.ceil(32.58884));
+console.log(Math.floor(num));
 
-console.log(Math.round(32.58884));
+console.log(Math.ceil(num));
+
+console.log(Math.round(num));
 
 
 // Задание 4
@@ -93,12 +87,12 @@ console.log(Math.max(32, 53, 49, 77, 21, 32));
 // Math.floor()
 //  для генерации случайных чисел.
 
-function Number(a){
-return a = Math.floor(Math.random() * 10);
+function Number() {
+  return a = Math.floor(Math.random() * 10) + 1;
 
 }
 
-console.log(Number('${a}'));
+console.log(Number());
 
 // Задание 6
 // Написать функцию, которая принимает целое число и возвращает массив случайных чисел от 0 до этого числа.
@@ -114,47 +108,35 @@ console.log(Number('${a}'));
 //  (включительно) до
 // 1
 //  (не включая).
-/*
+
 function randomNumb(n) {
-  return n = Math.random() * n;
+ return Array.from({ length: Math.floor(n / 2)}, () => Math.floor(Math.random() * n));
+
 }
 
-const arrj = [];
-
-for (let i = 0; i < 6; i++) {
-  arrj.push(randomNumb('${n}'));
-  
-}
+console.log(randomNumb(6));
 
 
-let n = randomNumb(6);
-
-console.log(arrj);
-
-*/
 
 // Задание 7
 // Создать функцию, которая принимает два целых числа и возвращает случайное число в этом диапазоне.
 
 
 // Критерии оценки
-/*
-function random(e, b) {
-  e = Number(prompt('Ведите первое число'));
-  b = Number(prompt('Ведите второе число'));
-  return randomNum = Math.floor(Math.random() * (e - b + 1)) + e;
+
+function random(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 
 
 }
-alert(randomNum());
-*/
+console.log(random(2, 9));
+
 // Задание 8
 // Вывести в консоль текущую дату.
 
 // Критерии оценки
 
-let currentDate = new Date();
-console.log(currentDate);
+console.log(new Date());
 
 // Задание 9
 // Создать переменную
@@ -163,12 +145,9 @@ console.log(currentDate);
 
 // Критерии оценки
 
-let myDate = new Date();
-console.log(+myDate);
-let days73 = 73 * 24 * 60 * 60 * 1000;
-let searchDate = myDate + days73;
-let daysAgo73 = new Date(searchDate);
-console.log(daysAgo73);
+const currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
 
 
 // Задание 10
@@ -180,8 +159,29 @@ console.log(daysAgo73);
 
 // Критерии оценки
 // Работа будет оценена по следующим критериям
-// Функция принимает дату и возвращает её в заданном формате: "Дата: [число] [месяц на русском] [год] — это [день недели на русском]. Время: [часы]:[минуты]:[секунды]".
+// Функция принимает дату и возвращает её в заданном формате: "Дата: [число] [месяц на русском] [год] — это [день недели на русском].
+//  Время: [часы]:[минуты]:[секунды]".
 // Результат работы загружен на GitHub и отправлена ссылка на pull request.
 // Подсказка
 // Дату и время можно получить из объекта
 // Date.
+
+function formatDate(date) {
+  const days = ["Воскресение", "Понедельник", "Вротник", "Среда", "Четверг", "Пятница", "Суббота"];
+  const months = ["Январь", "февраль", "Март", "Апрель", "Май", "Июнь", "Июль","Август", "Сентябрь",
+     "Октябрь", "Ноябрь", "Декабрь"];
+    const year = date.getFullYear();
+    const day = date.getDate();
+    const month = date.getMonth();
+    const dayOfWeek = days[date.getDay()];
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const seconds = date.getSeconds();
+
+    return `
+    Дата : ${day} ${months[month]} ${year} - это ${dayOfWeek}.
+    Время : ${hours}:${minutes}:${seconds}`;
+}
+
+console.log(formatDate(new Date()));
+

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -477,9 +478,469 @@ a {
 
 .words {
   background-image: url(img/Rectangle\ 7@2x.jpg);
-  width: 1440px;
   height: 800px;
   top: 2380px;
+}
+
+.jestik {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.jestik__lady {
+  position: relative;
+  z-index: 4;
+}
+.jestik__lady_hair {
+  padding-left: 36px;
+  padding-top: 367px;
+  z-index: 1;
+}
+.jestik__lady_head {
+  padding-left: 42px;
+  padding-top: 370px;
+}
+.jestik__lady_T-shirt {
+  padding-left: 43px;
+  padding-top: 396px;
+  z-index: 1;
+}
+.jestik__lady_right_shoulder {
+  padding-left: 48px;
+  padding-top: 392px;
+  z-index: 1;
+}
+.jestik__lady_left_shoulder {
+  padding-left: 51px;
+  padding-top: 396px;
+  z-index: 1;
+}
+.jestik__lady_right_hand {
+  padding-left: 63px;
+  padding-top: 356px;
+}
+.jestik__lady_left_hand {
+  padding-left: 64px;
+  padding-top: 412px;
+}
+.jestik__lady_tummy {
+  padding-left: 49px;
+  padding-top: 421px;
+}
+.jestik__lady_pants {
+  padding-left: 15px;
+  padding-top: 433px;
+  z-index: 1;
+}
+.jestik__lady_left_leg {
+  padding-left: 17px;
+  padding-top: 526px;
+}
+.jestik__lady_right_leg {
+  padding-left: 72px;
+  padding-top: 527px;
+}
+.jestik__lady_left_shoe {
+  padding-left: 13px;
+  padding-top: 548px;
+}
+.jestik__lady_The_right_shoe {
+  padding-left: 68px;
+  padding-top: 549px;
+}
+.jestik__jestik {
+  position: relative;
+}
+.jestik__jestik_left-handle {
+  padding-left: 59px;
+  padding-top: 329px;
+  z-index: 3;
+}
+.jestik__jestik_the-right-handle {
+  padding-left: 307px;
+  padding-top: 329px;
+  z-index: 2;
+}
+.jestik__jestik_Centre {
+  padding-left: 86px;
+  padding-top: 375px;
+}
+.jestik__jestik_red-center {
+  padding-left: 165px;
+  padding-top: 325px;
+  z-index: 1;
+}
+.jestik__jestik_white-center {
+  padding-left: 169px;
+  padding-top: 325px;
+  z-index: 1;
+}
+.jestik__jestik_left-SHARE-button {
+  padding-left: 152px;
+  padding-top: 343px;
+  z-index: 3;
+}
+.jestik__jestik_right-SHARE-button {
+  padding-left: 321px;
+  padding-top: 343px;
+  z-index: 2;
+}
+.jestik__jestik_botons-Direccionals-superiors {
+  padding-left: 118px;
+  padding-top: 359px;
+  z-index: 3;
+}
+.jestik__jestik_botons-Direccionals-cap-avall {
+  padding-left: 118px;
+  padding-top: 395px;
+  z-index: 3;
+}
+.jestik__jestik_botons-direccionals-correctes {
+  padding-left: 133px;
+  padding-top: 380px;
+  z-index: 3;
+}
+.jestik__jestik_botons-Direccionals-esquerre {
+  padding-left: 98px;
+  padding-top: 380px;
+  z-index: 3;
+}
+.jestik__jestik_triangle-de-botons {
+  padding-left: 342px;
+  padding-top: 352px;
+  z-index: 2;
+}
+.jestik__jestik_botó-x {
+  padding-left: 342px;
+  padding-top: 404px;
+  z-index: 2;
+}
+.jestik__jestik_cercle-de-botons {
+  padding-left: 368px;
+  padding-top: 379px;
+  z-index: 2;
+}
+.jestik__jestik_botó-quadrat {
+  padding-left: 315px;
+  padding-top: 379px;
+  z-index: 2;
+}
+.jestik__jestik_triangle {
+  padding-left: 347px;
+  padding-top: 355px;
+  z-index: 2;
+}
+.jestik__jestik_x {
+  padding-left: 348px;
+  padding-top: 409px;
+  z-index: 2;
+}
+.jestik__jestik_un-cercle {
+  padding-left: 372px;
+  padding-top: 384px;
+  z-index: 2;
+}
+.jestik__jestik_quadrat {
+  padding-left: 321px;
+  padding-top: 383px;
+  z-index: 2;
+}
+.jestik__jestik_L1 {
+  padding-left: 105px;
+  padding-top: 320px;
+  z-index: 2;
+}
+.jestik__jestik_R1 {
+  padding-left: 330px;
+  padding-top: 321px;
+  z-index: 1;
+}
+.jestik__jestik_Light-bar {
+  padding-left: 142px;
+  padding-top: 324px;
+}
+.jestik__jestik_cercle-blanc-esquerra {
+  padding-left: 150px;
+  padding-top: 412px;
+}
+.jestik__jestik_El-cercle-blanc-dreta {
+  padding-left: 264px;
+  padding-top: 412px;
+}
+.jestik__jestik_El-cercle-blau-té-raó {
+  padding-left: 163px;
+  padding-top: 421px;
+}
+.jestik__jestik_Queda-el-cercle-blau {
+  padding-left: 277px;
+  padding-top: 421px;
+}
+.jestik__jestik_PS {
+  padding-left: 232px;
+  padding-top: 449px;
+}
+.jestik__jestik_Left-stick-L3-button {
+  padding-left: 170px;
+  padding-top: 428px;
+}
+.jestik__jestik_Right-stick-R3-button {
+  padding-left: 284px;
+  padding-top: 428px;
+}
+.jestik__jestik_Speaker1 {
+  padding-left: 227px;
+  padding-top: 402px;
+}
+.jestik__jestik_Speaker2 {
+  padding-left: 234px;
+  padding-top: 402px;
+}
+.jestik__jestik_Speaker3 {
+  padding-left: 241px;
+  padding-top: 402px;
+}
+.jestik__jestik_Speaker4 {
+  padding-left: 248px;
+  padding-top: 402px;
+}
+.jestik__jestik_Speaker5 {
+  padding-left: 254px;
+  padding-top: 402px;
+}
+.jestik__jestik_Speaker6 {
+  padding-left: 231px;
+  padding-top: 408px;
+}
+.jestik__jestik_Speaker7 {
+  padding-left: 237px;
+  padding-top: 408px;
+}
+.jestik__jestik_Speaker8 {
+  padding-left: 243px;
+  padding-top: 408px;
+}
+.jestik__jestik_Speaker9 {
+  padding-left: 249px;
+  padding-top: 408px;
+}
+.jestik__guy {
+  position: relative;
+}
+.jestik__guy_pentinat {
+  padding-left: 429px;
+  padding-top: 350px;
+  z-index: 1;
+}
+.jestik__guy_cap {
+  padding-left: 432px;
+  padding-top: 354px;
+}
+.jestik__guy_Samarreta {
+  padding-left: 424px;
+  padding-top: 379px;
+  z-index: 2;
+}
+.jestik__guy_mà-dreta {
+  padding-left: 401px;
+  padding-top: 388px;
+}
+.jestik__guy_mà-esquerra {
+  padding-left: 423px;
+  padding-top: 392px;
+  z-index: 3;
+}
+.jestik__guy_ombra {
+  padding-left: 434px;
+  padding-top: 424px;
+  z-index: 3;
+}
+.jestik__guy_braç {
+  padding-left: 415px;
+  padding-top: 428px;
+  z-index: 2;
+}
+.jestik__guy_pantalons {
+  padding-left: 415px;
+  padding-top: 436px;
+  z-index: 1;
+}
+.jestik__guy_cama-esquerra {
+  padding-left: 421px;
+  padding-top: 537px;
+}
+.jestik__guy_cama-dreta {
+  padding-left: 451px;
+  padding-top: 532px;
+}
+.jestik__guy_sabata-esquerra {
+  padding-left: 413px;
+  padding-top: 548px;
+}
+.jestik__guy_La-sabata-adequada {
+  padding-left: 456px;
+  padding-top: 549px;
+}
+.jestik__leaves {
+  position: relative;
+}
+.jestik__leaves_la-fulla-esquerra {
+  padding-left: 23px;
+  padding-top: 275px;
+}
+.jestik__leaves_la-fulla-dreta {
+  padding-left: 86px;
+  padding-top: 272px;
+  z-index: 1;
+}
+.jestik__leaves_el-pecíol-esquerre {
+  padding-left: 36px;
+  padding-top: 276px;
+}
+.jestik__leaves_el-pecíol-dret {
+  padding-left: 97px;
+  padding-top: 272px;
+  z-index: 1;
+}
+.jestik__leaves_la-fulla-esquerra2 {
+  padding-left: 247px;
+  padding-top: 242px;
+}
+.jestik__leaves_la-fulla-dreta2 {
+  padding-left: 310px;
+  padding-top: 243px;
+}
+.jestik__leaves_el-pecíol-esquerre2 {
+  padding-left: 262px;
+  padding-top: 242px;
+}
+.jestik__leaves_el-pecíol-dret2 {
+  padding-left: 321px;
+  padding-top: 242px;
+}
+.jestik__leaves_venes1 {
+  padding-left: 71px;
+  padding-top: 348px;
+}
+.jestik__leaves_vene2 {
+  padding-left: 23px;
+  padding-top: 333px;
+}
+.jestik__leaves_vene3 {
+  padding-left: 37px;
+  padding-top: 292px;
+}
+.jestik__leaves_vene4 {
+  padding-left: 115px;
+  padding-top: 347px;
+}
+.jestik__leaves_vene5 {
+  padding-left: 99px;
+  padding-top: 313px;
+  z-index: 1;
+}
+.jestik__leaves_vene6 {
+  padding-left: 128px;
+  padding-top: 287px;
+  z-index: 1;
+}
+.jestik__leaves_la-fulla-esquerra-2 {
+  padding-left: 247px;
+  padding-top: 242px;
+}
+.jestik__leaves_la-fulla-dreta-2 {
+  padding-left: 310px;
+  padding-top: 241px;
+}
+.jestik__leaves_el-pecíol-esquerre-2 {
+  padding-left: 262px;
+  padding-top: 241px;
+}
+.jestik__leaves_el-pecíol-dret-2 {
+  padding-left: 322px;
+  padding-top: 241px;
+}
+.jestik__leaves_la-fulla-esquerra2-2 {
+  padding-left: 247px;
+  padding-top: 242px;
+}
+.jestik__leaves_la-fulla-dreta2-2 {
+  padding-left: 310px;
+  padding-top: 243px;
+}
+.jestik__leaves_el-pecíol-esquerre2-2 {
+  padding-left: 262px;
+  padding-top: 242px;
+}
+.jestik__leaves_el-pecíol-dret2-2 {
+  padding-left: 321px;
+  padding-top: 242px;
+}
+.jestik__leaves_venes1-2 {
+  padding-left: 297px;
+  padding-top: 314px;
+}
+.jestik__leaves_vene2-2 {
+  padding-left: 248px;
+  padding-top: 300px;
+}
+.jestik__leaves_vene3-2 {
+  padding-left: 262px;
+  padding-top: 260px;
+}
+.jestik__leaves_vene4-2 {
+  padding-left: 341px;
+  padding-top: 340px;
+}
+.jestik__leaves_vene5-2 {
+  padding-left: 324px;
+  padding-top: 280px;
+}
+.jestik__leaves_vene6-2 {
+  padding-left: 354px;
+  padding-top: 255px;
+}
+.jestik__leaves_El-cercle-vermell {
+  padding-left: 79px;
+  padding-top: 260px;
+}
+.jestik__leaves_blanc-x {
+  padding-left: 86px;
+  padding-top: 298px;
+}
+.jestik__leaves_quadrat-blanc {
+  padding-left: 75px;
+  padding-top: 272px;
+}
+.jestik__leaves_El-triangle-blanc {
+  padding-left: 95px;
+  padding-top: 254px;
+}
+.jestik__leaves_El-cercle-blanc {
+  padding-left: 121px;
+  padding-top: 265px;
+}
+.jestik__stripe {
+  padding-top: 549px;
+}
+.jestik__RememberTheWords {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 588px;
+  height: 235.6px;
+  padding-top: 242px;
+  padding-left: 135px;
+}
+.jestik__RememberTheWords_ZapomniSlova {
+  font-size: 48px;
+  color: #FFF;
+}
+.jestik__RememberTheWords_text {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+  width: 584px;
 }
 
 @media (max-width: 767px) {
