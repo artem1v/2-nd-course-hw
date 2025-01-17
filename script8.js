@@ -5,14 +5,14 @@
 //   отсортируйте массив 
 //  people
 //   по возрастанию возраста и выведите результат в консоль.
-
+/*
  const peoplel = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
     { name: 'Олег', age: 7 },
     { name: 'Оксана', age: 47 }
    ];
-    
+    */
 
 
 
@@ -27,7 +27,7 @@
 //   { name: 'Оксана', age: 47 }
 //   ]
  
-console.log(peoplel.sort((a, d) => a.age - d.age));
+//console.log(peoplel.sort((a, d) => a.age - d.age));
  
 //  Критерии оценки
 //  Работа будет оценена по следующим критериям
@@ -60,7 +60,7 @@ console.log(peoplel.sort((a, d) => a.age - d.age));
 //  ruleFunction
 //  , принимать решение о том, добавлять в результирующий массив очередной элемент или нет.
 
-
+/*
   function filter(array, ruleFunction) {
     const result = [];
     for (let i = 0; i < array.length; i++) {
@@ -87,7 +87,7 @@ console.log(peoplel.sort((a, d) => a.age - d.age));
   ];
 
   console.log(filter(people, isMale));
-
+*/
 
 //  Критерии оценки
 //  Работа будет оценена по следующим критериям
@@ -129,7 +129,7 @@ console.log(peoplel.sort((a, d) => a.age - d.age));
 //   для повторяющихся задач и 
 //  setTimeout
 //   для отложенного выполнения. Не забудьте очистить интервал после его выполнения.
-
+/*
 const intervalId = setInterval(() => {
   console.log(new Date());
 }, 3000);
@@ -138,7 +138,7 @@ setTimeout(() => {
   clearInterval(intervalId);
   console.log(`30 секунд прошло`);
 }, 30000);
-
+*/
 
 
 
@@ -151,13 +151,13 @@ setTimeout(() => {
 //  setTimeout
 //  .
 
-  function delayForSecond(callback) {
-    setTimeout(callback, 1000);
-  }
+//  function delayForSecond(callback) {
+//    setTimeout(callback, 1000);
+//  }
 
-  delayForSecond(function () {
-     console.log('Привет, Глеб!');
-  })
+//  delayForSecond(function () {
+//     console.log('Привет, Глеб!');
+//  })
 
 
 //  Критерии оценки
@@ -173,22 +173,23 @@ setTimeout(() => {
 // Посмотрите код. В нём допущена ошибка, и он выводит сообщения не в том порядке:
 // // Функция delayForSecond через 1 секунду пишет в консоль 
 // // «Прошла одна секунда», а затем вызывает переданный колбэк
- function delayForSecond(cb) {
-     setTimeout(() => {
-         console.log('Прошла одна секунда');
-         if (cb) {  cb(); }
-     }, 1000)
- }
+
+// function delayForSecond(cb) {
+//     setTimeout(() => {
+//         console.log('Прошла одна секунда');
+//         if (cb) {  cb(); }
+//     }, 1000)
+// }
 
 // // Функция sayHi выводит в консоль приветствие для указанного имени
- function sayHi (name) {
-     console.log(`Привет, ${name}!`);
-}
+// function sayHi (name) {
+//     console.log(`Привет, ${name}!`);
+// }
 
 // // Код выше менять нельзя
 
 // // Нужно изменить код ниже:
- delayForSecond(() => sayHi('Глеб'));
+// delayForSecond(() => sayHi('Глеб'));
 
 
 // Критерии оценки
