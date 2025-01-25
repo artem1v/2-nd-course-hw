@@ -1045,4 +1045,41 @@ a {
     
 }
 
+.RiddleGame{
+    background-image: url(img/unsplash_iO0I6-mhDEY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    &__header{
+    font-size: 48px;
+    color: #FFFFFF;
+    }
+    &__text{
+        color: #FFFFFF;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.footer{
+    height: 80px;
+    background-image: url(img/Rectangle\ 9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    &__text{
+    color: #FFFFFF;
+    font-size: 12px
+    }
+}
+
+
 @import 'mobile';

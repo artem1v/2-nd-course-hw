@@ -946,6 +946,42 @@ a {
   display: none;
 }
 
+.RiddleGame {
+  background-image: url(img/unsplash_iO0I6-mhDEY.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.RiddleGame__header {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.RiddleGame__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  height: 80px;
+  background-image: url(img/Rectangle\ 9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.footer__text {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -1335,6 +1371,9 @@ a {
   }
   .mobile__stripe {
     padding-top: 223px;
+  }
+  .words {
+    height: 653.61px;
   }
   .jestik {
     flex-wrap: wrap;
@@ -1759,5 +1798,20 @@ a {
   }
   .jestik__mobile_stripe {
     padding-top: 262px;
+  }
+  .RiddleGame {
+    background-image: url(img/unsplash_iO0I6-mhDEY_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    align-content: flex-start;
+  }
+  .RiddleGame__header {
+    font-size: 32px;
+  }
+  .RiddleGame__text {
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
