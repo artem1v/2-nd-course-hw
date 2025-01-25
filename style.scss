@@ -561,9 +561,484 @@ a {
 
 .words{
     background-image: url(img/Rectangle\ 7@2x.jpg);
-    width: 1440px;
     height: 800px;
     top: 2380px;
+    
+}
+
+.jestik{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    &__lady{
+        position: relative;
+        z-index: 4;
+        &_hair{
+            padding-left: 36px;
+            padding-top: 367px;
+            z-index: 1;
+        }
+        &_head{
+            padding-left: 42px;
+            padding-top: 370px;
+        }
+        &_T-shirt{
+            padding-left: 43px;
+            padding-top: 396px;
+            z-index: 1;
+        }
+        &_right_shoulder{
+            padding-left: 48px;
+            padding-top: 392px;
+            z-index: 1;  
+        }
+        &_left_shoulder{
+            padding-left: 51px;
+            padding-top: 396px;
+            z-index: 1;
+        }
+        &_right_hand{
+            padding-left: 63px;
+            padding-top: 356px; 
+        }
+        &_left_hand{
+            padding-left: 64px;
+            padding-top: 412px;
+        }
+        &_tummy{
+            padding-left: 49px;
+            padding-top: 421px;
+        }
+        &_pants{
+            padding-left: 15px;
+            padding-top: 433px;
+            z-index: 1;
+        }
+        &_left_leg{
+            padding-left: 17px;
+            padding-top: 526px;
+        }
+        &_right_leg{
+            padding-left: 72px;
+            padding-top: 527px;
+        }
+        &_left_shoe{
+            padding-left: 13px;
+            padding-top: 548px;
+        }
+        &_The_right_shoe{
+            padding-left: 68px;
+            padding-top: 549px;
+        }
+    }
+
+    &__jestik{
+        position: relative;
+        
+        &_left-handle{
+            padding-left: 59px;
+            padding-top: 329px;
+            z-index: 3;
+        }
+        &_the-right-handle{
+            padding-left: 307px;
+            padding-top: 329px;
+            z-index: 2;
+        }
+        &_Centre{
+            padding-left: 86px;
+            padding-top: 375px;
+        }
+        &_red-center{
+            padding-left: 165px;
+            padding-top: 325px;
+            z-index: 1;
+        }
+        &_white-center{
+            padding-left: 169px;
+            padding-top: 325px;
+            z-index: 1;
+        }
+        &_left-SHARE-button{
+            padding-left: 152px;
+            padding-top: 343px;
+            z-index: 3;
+        }
+        &_right-SHARE-button{
+            padding-left: 321px;
+            padding-top: 343px;
+            z-index: 2;
+        }
+        &_botons-Direccionals-superiors{
+            padding-left: 118px;
+            padding-top: 359px;
+            z-index: 3;
+        }
+        &_botons-Direccionals-cap-avall{
+            padding-left: 118px;
+            padding-top: 395px;
+            z-index: 3;
+        }
+        &_botons-direccionals-correctes{
+            padding-left: 133px;
+            padding-top: 380px;
+            z-index: 3;
+        
+        }
+        &_botons-Direccionals-esquerre{
+            padding-left: 98px;
+            padding-top: 380px;
+            z-index: 3;
+        }
+        &_triangle-de-botons{
+            padding-left: 342px;
+            padding-top: 352px;
+            z-index: 2;
+        }
+        &_botó-x{
+            padding-left: 342px;
+            padding-top: 404px;
+            z-index: 2;
+        
+        }
+        &_cercle-de-botons{
+            padding-left: 368px;
+            padding-top: 379px;
+            z-index: 2;
+        }
+        &_botó-quadrat{
+            padding-left: 315px;
+            padding-top: 379px;
+            z-index: 2;
+        }
+        &_triangle{
+            padding-left: 347px;
+            padding-top: 355px;
+            z-index: 2;  
+        }
+        &_x{
+            padding-left: 348px;
+            padding-top: 409px;
+            z-index: 2;
+        }
+        &_un-cercle{
+            padding-left: 372px;
+            padding-top: 384px;
+            z-index: 2;
+        }
+        &_quadrat{
+            padding-left: 321px;
+            padding-top: 383px;
+            z-index: 2;
+        }
+        &_L1{
+            padding-left: 105px;
+            padding-top: 320px;
+            z-index: 2;
+        }
+        &_R1{
+            padding-left: 330px;
+            padding-top: 321px;
+            z-index: 1;
+        }
+        &_Light-bar{
+            padding-left: 142px;
+            padding-top: 324px;
+        }
+        &_cercle-blanc-esquerra{
+            padding-left: 150px;
+            padding-top: 412px;
+        }
+        &_El-cercle-blanc-dreta{
+            padding-left: 264px;
+            padding-top: 412px;
+        }
+        &_El-cercle-blau-té-raó{
+            padding-left: 163px;
+            padding-top: 421px;
+        }
+        &_Queda-el-cercle-blau{
+            padding-left: 277px;
+            padding-top: 421px;
+        }
+        &_PS{
+            padding-left: 232px;
+            padding-top: 449px;
+        }
+        &_Left-stick-L3-button{
+            padding-left: 170px;
+            padding-top: 428px;
+        }
+        &_Right-stick-R3-button{
+            padding-left: 284px;
+            padding-top: 428px;
+        }
+        &_Speaker1{
+            padding-left: 227px;
+            padding-top: 402px;
+        }
+        &_Speaker2{
+            padding-left: 234px;
+            padding-top: 402px;
+        }
+        
+        &_Speaker3{
+            padding-left: 241px;
+            padding-top: 402px;
+        }
+        &_Speaker4{
+            padding-left: 248px;
+            padding-top: 402px;
+        }
+        &_Speaker5{
+            padding-left: 254px;
+            padding-top: 402px;
+        }
+        &_Speaker6{
+            padding-left: 231px;
+            padding-top: 408px;
+        }
+        &_Speaker7{
+            padding-left: 237px;
+            padding-top: 408px;
+        }
+        &_Speaker8{
+            padding-left: 243px;
+            padding-top: 408px;
+        }
+        &_Speaker9{
+            padding-left: 249px;
+            padding-top: 408px;
+        }
+
+    }
+    &__guy{
+        position: relative;
+        &_pentinat{
+            padding-left: 429px;
+            padding-top: 350px;
+            z-index: 1;
+        }
+        &_cap{
+            padding-left: 432px;
+            padding-top: 354px;
+        }
+        &_Samarreta{
+            padding-left: 424px;
+            padding-top: 379px;
+            z-index: 2; 
+        }
+        &_mà-dreta{
+            padding-left: 401px;
+            padding-top: 388px;
+        }
+        &_mà-esquerra{
+            padding-left: 423px;
+            padding-top: 392px;
+            z-index: 3;
+        }
+        &_ombra{
+            padding-left: 434px;
+            padding-top: 424px;
+            z-index: 3; 
+        }
+        &_braç{
+            padding-left: 415px;
+            padding-top: 428px;
+            z-index: 2;
+        }
+        &_pantalons{
+            padding-left: 415px;
+            padding-top: 436px;
+            z-index: 1;
+        }
+        &_cama-esquerra{
+            padding-left: 421px;
+            padding-top: 537px; 
+        }
+        &_cama-dreta{
+            padding-left: 451px;
+            padding-top: 532px;
+        }
+        &_sabata-esquerra{
+            padding-left: 413px;
+            padding-top: 548px;
+        }
+        &_La-sabata-adequada{
+            padding-left: 456px;
+            padding-top: 549px;
+        }
+
+   
+    }
+    &__leaves{
+        position: relative;
+        &_la-fulla-esquerra{
+            padding-left: 23px;
+            padding-top: 275px;
+        }
+        &_la-fulla-dreta{
+            padding-left: 86px;
+            padding-top: 272px;
+            z-index: 1;
+        }
+        &_el-pecíol-esquerre{
+            padding-left: 36px;
+            padding-top: 276px;
+        }
+        &_el-pecíol-dret{
+            padding-left: 97px;
+            padding-top: 272px;
+            z-index: 1;
+        }
+        &_la-fulla-esquerra2{
+            padding-left: 247px;
+            padding-top: 242px;
+        }
+        &_la-fulla-dreta2{
+            padding-left: 310px;
+            padding-top: 243px;
+        }
+        &_el-pecíol-esquerre2{
+            padding-left: 262px;
+            padding-top: 242px;
+        }
+        &_el-pecíol-dret2{
+            padding-left: 321px;
+            padding-top: 242px;
+        }
+        &_venes1{
+            padding-left: 71px;
+            padding-top: 348px;
+        }
+        &_vene2{
+            padding-left: 23px;
+            padding-top: 333px;   
+        }
+        &_vene3{
+            padding-left: 37px;
+            padding-top: 292px;
+        }
+        &_vene4{
+            padding-left: 115px;
+            padding-top: 347px;
+        }
+        &_vene5{
+            padding-left: 99px;
+            padding-top: 313px;
+            z-index: 1;
+        }
+        &_vene6{
+            padding-left: 128px;
+            padding-top: 287px;
+            z-index: 1;
+        }
+
+        &_la-fulla-esquerra-2{
+            padding-left: 247px;
+            padding-top: 242px;
+        }
+        &_la-fulla-dreta-2{
+            padding-left: 310px;
+            padding-top: 241px;
+        }
+        &_el-pecíol-esquerre-2{
+            padding-left: 262px;
+            padding-top: 241px;
+        }
+        &_el-pecíol-dret-2{
+            padding-left: 322px;
+            padding-top: 241px;
+        }
+        &_la-fulla-esquerra2-2{
+            padding-left: 247px;
+            padding-top: 242px;
+        }
+        &_la-fulla-dreta2-2{
+            padding-left: 310px;
+            padding-top: 243px;
+        }
+        &_el-pecíol-esquerre2-2{
+            padding-left: 262px;
+            padding-top: 242px;
+        }
+        &_el-pecíol-dret2-2{
+            padding-left: 321px;
+            padding-top: 242px;
+        }
+        &_venes1-2{
+            padding-left: 297px;
+            padding-top: 314px;
+        }
+        &_vene2-2{
+            padding-left: 248px;
+            padding-top: 300px; 
+        }
+        &_vene3-2{
+            padding-left: 262px;
+            padding-top: 260px;
+        }
+        &_vene4-2{
+            padding-left: 341px;
+            padding-top: 340px;
+        }
+        &_vene5-2{
+            padding-left: 324px;
+            padding-top: 280px;
+        }
+        &_vene6-2{
+            padding-left: 354px;
+            padding-top: 255px;
+        }
+        &_El-cercle-vermell{
+            padding-left: 79px;
+            padding-top: 260px;
+        }
+        &_blanc-x{
+            padding-left: 86px;
+            padding-top: 298px;  
+        }
+        &_quadrat-blanc{
+            padding-left: 75px;
+            padding-top: 272px;
+        }
+        &_El-triangle-blanc{
+            padding-left: 95px;
+            padding-top: 254px;
+        }
+        &_El-cercle-blanc{
+            padding-left: 121px;
+            padding-top: 265px;
+        }
+        
+
+    }
+    &__stripe{
+        padding-top: 549px;
+    }
+    &__RememberTheWords{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 588px;
+        height: 235.6px;
+        padding-top: 242px;
+        padding-left: 135px;
+
+
+        &_ZapomniSlova{
+            font-size: 48px;
+            color: #FFF;
+        }
+        &_text{
+            color: #FFF;
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: 300;
+            width: 584px;
+        }
+    }
     
 }
 
