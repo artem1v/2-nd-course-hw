@@ -6,11 +6,11 @@
 // Критерии оценки
 
 
-
+/*
 let line = 'js';
 line = line.toUpperCase();
 console.log(line);
-
+*/
 
 
 // Задание 2
@@ -25,7 +25,7 @@ console.log(line);
 //  и 
 // startsWith()
 //  для сравнения начала строк.
-
+/*
 function myFunction(array, string) {
 
   const lowerString = string.toLowerCase();
@@ -33,7 +33,7 @@ function myFunction(array, string) {
 }
 
 console.log(myFunction(['пирожёк', 'хлеб крестьянский', 'хлеб бородинский'], 'хлеб'));
-
+*/
 // Задание 3
 // Округлить число 32.58884:
 
@@ -50,7 +50,7 @@ console.log(myFunction(['пирожёк', 'хлеб крестьянский', '
 //  и
 // Math.round()
 //  для округления значений.
-
+/*
 let num = 32.58884;
 
 console.log(Math.floor(num));
@@ -58,7 +58,7 @@ console.log(Math.floor(num));
 console.log(Math.ceil(num));
 
 console.log(Math.round(num));
-
+*/
 
 // Задание 4
 // Найти минимальное и максимальное значения из чисел 52, 53, 49, 77, 21, 32 и вывести их в консоль.
@@ -71,10 +71,10 @@ console.log(Math.round(num));
 //  и
 // Math.max()
 //  для нахождения минимального и максимального значений.
-
+/*
 console.log(Math.min(32, 53, 49, 77, 21, 32));
 console.log(Math.max(32, 53, 49, 77, 21, 32));
-
+*/
 // Задание 5
 // Создать функцию, которая выводит в консоль случайное число от 1 до 10.
 
@@ -86,14 +86,14 @@ console.log(Math.max(32, 53, 49, 77, 21, 32));
 //  и
 // Math.floor()
 //  для генерации случайных чисел.
-
+/*
 function Number() {
   return a = Math.floor(Math.random() * 10) + 1;
 
 }
 
 console.log(Number());
-
+*/
 // Задание 6
 // Написать функцию, которая принимает целое число и возвращает массив случайных чисел от 0 до этого числа.
 //  Длина массива должна быть в два раза меньше переданного числа.
@@ -109,13 +109,15 @@ console.log(Number());
 // 1
 //  (не включая).
 
+/*
+
 function randomNumb(n) {
  return Array.from({ length: Math.floor(n / 2)}, () => Math.floor(Math.random() * n));
 
 }
 
 console.log(randomNumb(6));
-
+*/
 
 
 // Задание 7
@@ -123,32 +125,32 @@ console.log(randomNumb(6));
 
 
 // Критерии оценки
-
+/*
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 
 
 }
 console.log(random(2, 9));
-
+*/
 // Задание 8
 // Вывести в консоль текущую дату.
 
 // Критерии оценки
-
+/*
 console.log(new Date());
-
+*/
 // Задание 9
 // Создать переменную
 // currentDate
 // , хранящую текущую дату. Вывести дату, которая наступит через 73 дня после текущей.
 
 // Критерии оценки
-
+/*
 const currentDate = new Date();
 currentDate.setDate(currentDate.getDate() + 73);
 console.log(currentDate);
-
+*/
 
 // Задание 10
 // Написать функцию, которая принимает дату и возвращает ее в формате:
@@ -165,7 +167,7 @@ console.log(currentDate);
 // Подсказка
 // Дату и время можно получить из объекта
 // Date.
-
+/*
 function formatDate(date) {
   const days = ["Воскресение", "Понедельник", "Вротник", "Среда", "Четверг", "Пятница", "Суббота"];
   const months = ["Январь", "февраль", "Март", "Апрель", "Май", "Июнь", "Июль","Август", "Сентябрь",
@@ -184,4 +186,6 @@ function formatDate(date) {
 }
 
 console.log(formatDate(new Date()));
+*/
+
 
