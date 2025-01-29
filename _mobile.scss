@@ -491,6 +491,10 @@
 
 }
 
+.words{
+  height: 653.61px;
+}
+
 .jestik{
     flex-wrap: wrap;
 
@@ -932,6 +936,28 @@
     &_stripe{
       padding-top: 262px;
     }
+
+  }
+}
+
+.RiddleGame{
+  background-image: url(img/unsplash_iO0I6-mhDEY_mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  align-content: flex-start;
+  &__header{
+    font-size: 32px;
+  }
+  &__text{
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.footer{
+  &__text{
 
   }
 }

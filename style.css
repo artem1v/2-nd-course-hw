@@ -479,7 +479,6 @@ a {
 .words {
   background-image: url(img/Rectangle\ 7@2x.jpg);
   height: 800px;
-  top: 2380px;
 }
 
 .jestik {
@@ -946,6 +945,68 @@ a {
   display: none;
 }
 
+.RiddleGame {
+  background-image: url(img/unsplash_iO0I6-mhDEY.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.RiddleGame__header {
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.RiddleGame__text {
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  height: 80px;
+  background-image: url(img/Rectangle\ 9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.footer__text {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .Seasons {
+    gap: 0px;
+  }
+  .game__seasons {
+    padding-top: 0px;
+  }
+  .gamepad {
+    padding-top: 54px;
+    padding-bottom: 60px;
+  }
+  .words {
+    height: 870px;
+  }
+  .jestik {
+    flex-wrap: wrap;
+  }
+  .jestik__RememberTheWords {
+    padding-left: 0px;
+    padding-top: 34px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -1335,6 +1396,9 @@ a {
   }
   .mobile__stripe {
     padding-top: 223px;
+  }
+  .words {
+    height: 653.61px;
   }
   .jestik {
     flex-wrap: wrap;
@@ -1759,5 +1823,20 @@ a {
   }
   .jestik__mobile_stripe {
     padding-top: 262px;
+  }
+  .RiddleGame {
+    background-image: url(img/unsplash_iO0I6-mhDEY_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    align-content: flex-start;
+  }
+  .RiddleGame__header {
+    font-size: 32px;
+  }
+  .RiddleGame__text {
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
