@@ -479,7 +479,6 @@ a {
 .words {
   background-image: url(img/Rectangle\ 7@2x.jpg);
   height: 800px;
-  top: 2380px;
 }
 
 .jestik {
@@ -982,6 +981,32 @@ a {
   font-size: 12px;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .Seasons {
+    gap: 0px;
+  }
+  .game__seasons {
+    padding-top: 0px;
+  }
+  .gamepad {
+    padding-top: 54px;
+    padding-bottom: 60px;
+  }
+  .words {
+    height: 870px;
+  }
+  .jestik {
+    flex-wrap: wrap;
+  }
+  .jestik__RememberTheWords {
+    padding-left: 0px;
+    padding-top: 34px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
