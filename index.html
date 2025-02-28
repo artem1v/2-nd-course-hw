@@ -17,7 +17,7 @@
             <h1 class="title">Добро пожаловать на мой сайт !</h1>
             <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и
                 приступай</p>
-            <button class="button">Поехали!</button>
+            <button id="scrollButton" class="button">Поехали!</button>
         </header>
 
     </div>
@@ -2263,7 +2263,7 @@
             <div class="jestik__RememberTheWords">
                 <h2 class="jestik__RememberTheWords_ZapomniSlova">Запомни слова</h2>
                 <p class="jestik__RememberTheWords_text">При нажатии на кнопку вы увидите несколько слов, которые вам необходимо запомнить.</p>
-                <button class="button" onclick="">Играть!</button>
+                <button class="button" onclick="rememberWords()">Играть!</button>
             </div>
 
                 <div class="jestik__mobile">
@@ -2833,13 +2833,23 @@
                     
             </div>
                 </div>
-                </div>
-            
-            
-
         </div>
+            
+            
 
-      
+     </div>
+
+    <div class="RiddleGame center">
+        <h2 class="RiddleGame__header">Игра в загадки</h2>
+        <p class="RiddleGame__text">Компьютер загадывает загадку, вам необходимо ее угадать,
+             если вы дадите не правильный ответ, то компьютер даст вам подсказку. 
+             У вас будет три попытки и две подсказки.</p>
+        <button class="button bun" onclick="riddles()">Играть!</button>
+    </div>  
+
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены</p>
+    </footer>
 
 
 
@@ -2848,7 +2858,7 @@
     <script src="programs.js"></script>
     <script src="script7.js"></script>
     <script src="script8.js"></script>
-    
+ 
 </body>
 
 </html>
